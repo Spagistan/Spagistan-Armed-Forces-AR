@@ -1,0 +1,14 @@
+MatPBRBasic {
+ Cull none
+ BCRMap "{F680DA82B22263A5}Assets/Props/Fabric/Flags/Data/poleflag_spag_BCR.edds"
+ NormalPower 1.2
+ NMOMap "{C39D234EF0D4B94D}Assets/Props/Fabric/Flags/Data/Flag_1_2_N.edds"
+ GlobalMapsUVTransform MatUVTransform "{589EB2EA658B1D71}" {
+ }
+ DetailNormalPower 0.35
+ DetailNormalMap "{61DE3875B9DBD343}Assets/_SharedData/Fabric/ST_FabricWrinkles_1m_01_NMO.edds"
+ DetailNormalMapUVTransform MatUVTransform "{589EB2EA5F8FBBC3}" {
+  TilingU 2
+  TilingV 2
+ }
+}

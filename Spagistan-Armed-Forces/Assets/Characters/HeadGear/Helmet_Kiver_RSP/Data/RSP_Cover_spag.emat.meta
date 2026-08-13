@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{1E61C67E1F76B9C0}Assets/Characters/HeadGear/Helmet_Kiver_RSP/Data/RSP_Cover_spag.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+  EMATResourceClass Xbox : PC {
+  }
+ }
+}

@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{596EB841D71ADDC1}Assets/Characters/Patches/data/patch_Spagistan_flag_embroidered.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

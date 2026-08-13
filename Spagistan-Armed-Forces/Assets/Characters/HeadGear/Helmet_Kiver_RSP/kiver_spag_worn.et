@@ -1,0 +1,15 @@
+GenericEntity {
+ ID "6A0B3D22658D0C79"
+ components {
+  MeshObject "{6A0B3D2249E8FD75}" {
+   Object "{FADCC45A5F37E4F5}Assets/Characters/HeadGear/Helmet_Kiver_RSP/kiver_rsp_cover.xob"
+   Materials {
+    MaterialAssignClass "{6A0B3D27BE7A4940}" {
+     SourceMaterial "RSP_Cover"
+     AssignedMaterial "{1E61C67E1F76B9C0}Assets/Characters/HeadGear/Helmet_Kiver_RSP/Data/RSP_Cover_spag.emat"
+    }
+   }
+  }
+ }
+ coords 2.812 -3.453 -0.951
+}

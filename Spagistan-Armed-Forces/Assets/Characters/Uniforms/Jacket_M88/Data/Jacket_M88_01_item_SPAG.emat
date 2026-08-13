@@ -1,0 +1,5 @@
+MatPBRBasic {
+ CavityFromAO 1
+ BCRMap "{F0ACF4AC4E2155A4}Assets/Characters/Uniforms/Jacket_M88/Data/spag_u_m88_floor.edds"
+ NMOMap "{FE421F2C2BA8D265}Assets/Characters/Uniforms/Jacket_M88/Data/Jacket_M88_01_Item_NMO.edds"
+}

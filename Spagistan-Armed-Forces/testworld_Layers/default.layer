@@ -1,0 +1,22 @@
+GameEntity : "{3E962967F1C78CCA}Prefabs/Characters/Vests/Vest_Taktika/Vest_Taktika_od.et" {
+ components {
+  BaseLoadoutClothComponent "{5312D798A71DFBB1}" {
+   WornMaterialsOverride {
+    "{ADF2688E672EEA3A}Assets/Characters/Vests/Vest_Taktika/data/Taktika_OD.emat"
+   }
+   ItemMaterialsOverride {
+    "{ADF2688E672EEA3A}Assets/Characters/Vests/Vest_Taktika/data/Taktika_OD.emat"
+   }
+  }
+ }
+ coords 123.631 1 143.739
+}
+GameEntity : "{43AD25D84C82BE89}Prefabs/Characters/Uniforms/M88_Jacket_Rolledup_SPAG.et" {
+ coords 122.811 1 143.711
+}
+GameEntity : "{AA4671D72058A45C}Prefabs/Characters/Uniforms/M88_Jacket_SPAG.et" {
+ coords 122.11 1 143.573
+}
+GameEntity : "{BF4654AEACE767CC}Prefabs/Characters/Uniforms/M88_Pants_SPAG.et" {
+ coords 121.446 1 143.512
+}

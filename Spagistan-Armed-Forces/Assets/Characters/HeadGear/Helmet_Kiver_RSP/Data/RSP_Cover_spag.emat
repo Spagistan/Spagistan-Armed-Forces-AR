@@ -1,0 +1,6 @@
+MatPBRBasic {
+ AllowUserAlphaBias 1
+ DisableUserAphaInShadow 1
+ BCRMap "{255E34595D28F0BF}Assets/Characters/HeadGear/Helmet_Kiver_RSP/Data/kiver_spag_cover_03.edds"
+ NMOMap "{C1BDDE048CD14891}Assets/Characters/HeadGear/Helmet_Kiver_RSP/Data/kiver_cover_NMO.edds"
+}

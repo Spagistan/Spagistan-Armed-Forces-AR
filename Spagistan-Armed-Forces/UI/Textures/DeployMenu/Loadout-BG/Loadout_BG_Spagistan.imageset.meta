@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{940C7C9901831ABE}UI/Textures/DeployMenu/Loadout-BG/Loadout_BG_Spagistan.imageset"
+ Configurations {
+  ImageSetResourceClass PC {
+  }
+  ImageSetResourceClass XBOX_ONE : PC {
+  }
+  ImageSetResourceClass XBOX_SERIES : PC {
+  }
+  ImageSetResourceClass PS4 : PC {
+  }
+  ImageSetResourceClass PS5 : PC {
+  }
+  ImageSetResourceClass HEADLESS : PC {
+  }
+  ImageSetResourceClass Xbox : PC {
+  }
+ }
+}

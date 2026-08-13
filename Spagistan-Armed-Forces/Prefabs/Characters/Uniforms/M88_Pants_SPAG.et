@@ -1,0 +1,127 @@
+GameEntity {
+ ID "6A032C43DF28F131"
+ components {
+  ParametricMaterialInstanceComponent "{6A032C4503F5F750}" {
+   UserParamTwo 0
+   ApplyPropertiesWhenMeshChanged 1
+  }
+  Persistence "{6A032C4503F5F740}" {
+  }
+  MeshObject "{6A032C4503F5CB39}" {
+   Object "{4E1D59C21015F300}Assets/Characters/Uniforms/Pants_M88/Pants_M88_item.xob"
+   LODFactors {
+    1
+   }
+   PixelSizeScale 3
+   InheritVisibility 1
+  }
+  RigidBody "{6A032C4503F5CB11}" {
+   SimState Collision
+   ModelGeometry 1
+  }
+  SCR_ItemOutfitFactionComponent "{6A032C4503F5CAE4}" {
+   m_OutfitDataHolder SCR_OutfitFactionDataHolder "{6A032C4503F5CAE2}" {
+    m_aOutfitFactionData {
+     SCR_OutfitFactionData "{6A032C4503F5CAE0}" {
+      m_AffiliatedFactionKey "SPAG"
+     }
+    }
+   }
+  }
+  SCR_SoundDataComponent "{6A032C4503F5CAC4}" {
+   m_aAudioSourceConfiguration {
+    SCR_AudioSourceConfiguration "{6A032C4503F5CADA}" {
+     m_sSoundProject "{C1AC31AEF1665302}Sounds/Items/_SharedData/PickUp/Items_PickUp_Uniform.acp"
+     m_sSoundEventName "SOUND_PICK_UP"
+    }
+    SCR_AudioSourceConfiguration "{6A032C4503F5CADF}" {
+     m_sSoundProject "{C1AC31AEF1665302}Sounds/Items/_SharedData/PickUp/Items_PickUp_Uniform.acp"
+     m_sSoundEventName "SOUND_EQUIP"
+     m_eFlags 0
+    }
+    SCR_AudioSourceConfiguration "{6A032C4503F5CAC3}" {
+     m_sSoundProject "{F62001ED6E9FA253}Sounds/Items/_SharedData/Drop/Items_Drop_Clothes.acp"
+     m_sSoundEventName "SOUND_DROP"
+    }
+   }
+  }
+  SCR_UniversalInventoryStorageComponent "{6A032C4503F5C9A3}" {
+   Attributes SCR_ItemAttributeCollection "{6A032C4503F5C9F0}" {
+    ItemDisplayName UIInfo "{6A032C4503F5CA99}" {
+     Name "M88 Trousers Spagpat"
+     Description "A pair of BDU trousers produced for the Spagistan Armed Forces."
+    }
+    ItemPhysAttributes ItemPhysicalAttributes "{6A032C4503F5CA65}" {
+     Weight 0.6
+     SizeSetupStrategy Manual
+     ItemDimensions 15 15 15
+     ItemVolume 2000
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{6A032C4503F5CA10}" {
+      CameraDistanceToItem 0.8
+      CameraOffset 0 0.05 0
+      IsDynamicObject 1
+      PreviewWornModel 1
+      PreviewModel "{1094DDE5E932B418}Assets/Characters/Uniforms/Pants_M88/Pants_M88_01.xob"
+     }
+    }
+    m_Size SLOT_2x2
+    m_SlotType SLOT_LOADOUT_STORAGE
+   }
+   Priority 2
+   UseCapacityCoefficient 0
+   CapacityCoefficient 1
+   MaxCumulativeVolume 1600
+   MaxItemSize 10 10 10
+   m_fMaxWeight 10
+  }
+  BaseLoadoutClothComponent "{6A032C4503F5C956}" {
+   AreaType LoadoutPantsArea "{6A032C4503F5C99F}" {
+   }
+   WornModel "{0A7E32DC1BFB4853}Assets/Characters/Uniforms/Pants_M88/Pants_M88_Worn_SPAG.et"
+   ItemModel "{7381F6FEB114C7DE}Assets/Characters/Uniforms/Pants_M88/Pants_M88_Item_SPAG.et"
+   SoundInt 520
+   DepthFront 0.015
+  }
+  ActionsManagerComponent "{6A032C4503F5C88F}" {
+   ActionContexts {
+    UserActionContext "{6A032C4503F5C91C}" {
+     ContextName "default"
+     Position PointInfo "{6A032C4503F5C93B}" {
+      Offset 0 0.05 0
+     }
+     Radius 0.5
+    }
+   }
+   additionalActions {
+    SCR_PickUpItemAction "{6A032C4503F5C8CF}" {
+     ParentContextList {
+      "default"
+     }
+     UIInfo SCR_ActionUIInfo "{6A032C4503F5C8FF}" {
+      Name "#AR-Inventory_PickUp"
+      m_sIconName "pick-up"
+     }
+    }
+    SCR_EquipClothAction "{6A032C4503F5C886}" {
+     ParentContextList {
+      "default"
+     }
+     UIInfo SCR_ActionUIInfo "{6A032C4503F5C8A8}" {
+      Name "#AR-Inventory_Equip"
+      m_sIconName "pick-up"
+     }
+     "Sort Priority" -10
+    }
+   }
+  }
+  RplComponent "{6A032C4503F5C860}" {
+   "Rpl State Override" Runtime
+   "Parent Node From Parent Entity" 0
+  }
+  Hierarchy "{6A032C4503F5C866}" {
+  }
+ }
+ coords 66.425 0 66.298
+}

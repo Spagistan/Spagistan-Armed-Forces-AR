@@ -1,0 +1,30 @@
+Vehicle : "{254289B9C09904AB}Prefabs/Vehicles/Wheeled/BRDM2/BRDM2.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  SCR_BaseCompartmentManagerComponent "{20FB66C5DCB8DF72}" {
+   CompartmentSlots {
+    PilotCompartmentSlot PilotCompartment {
+     m_DefaultOccupantData SCR_DefaultOccupantData "{62F6EC99F0A046DC}" {
+      m_sDefaultOccupantPrefab "{968D3819F8506DBE}Prefabs/Characters/Factions/SPAGISTAN/Character_SPAG_Unarmed.et"
+     }
+    }
+    CargoCompartmentSlot Passenger {
+     m_DefaultOccupantData SCR_DefaultOccupantData "{62F6EC99E98F9BF2}" {
+      m_sDefaultOccupantPrefab "{968D3819F8506DBE}Prefabs/Characters/Factions/SPAGISTAN/Character_SPAG_Unarmed.et"
+     }
+    }
+   }
+  }
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    m_sFaction "SPAG"
+    m_aAutoLabels {
+     FACTION_SPAGISTAN SIZE_M
+    }
+   }
+  }
+  SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
+   "faction affiliation" "SPAG"
+  }
+ }
+}

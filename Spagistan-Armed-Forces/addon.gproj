@@ -1,0 +1,24 @@
+GameProject {
+ ID "SpagistanArmedForces"
+ GUID "69E74C529BA64891"
+ TITLE "Spagistan Armed Forces"
+ Dependencies {
+  "595F2BF2F44836FB" "BADC0DEDABBEDA5E" "1337C0DE5DABBEEF" "58D0FB3206B6F859" "65FB762EB503CCF9" "696D0A6913DA76A7"
+ }
+ Configurations {
+  GameProjectConfig PC {
+  }
+  GameProjectConfig XBOX_ONE {
+  }
+  GameProjectConfig XBOX_SERIES {
+  }
+  GameProjectConfig PS4 {
+  }
+  GameProjectConfig PS5 {
+  }
+  GameProjectConfig HEADLESS {
+  }
+  GameProjectConfig Xbox {
+  }
+ }
+}

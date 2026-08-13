@@ -1,0 +1,17 @@
+SCR_ChimeraCharacter : "{C245589F6844CA36}Prefabs/Characters/Factions/SPAGISTAN/Character_SPAG_Base.et" {
+ ID "520EC961A090BE1E"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "Unarmed"
+    m_Image "{FCE47BC27A1DB3A9}UI/Textures/EditorPreviews/Character_SPAG_Unarmed_BCR.edds"
+    m_aAuthoredLabels + {
+     TRAIT_UNARMED
+    }
+    m_aAutoLabels {
+     SIZE_M
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,33 @@
+GameEntity : "{A20DC15BF24DBE17}Prefabs/Characters/Vests/Vest_Taktika/Vest_Taktika.et" {
+ ID "50D8C49B3558F152"
+ components {
+  MeshObject "{5312D798A817A294}" {
+   Materials {
+    MaterialAssignClass "{6A18306304D6EB79}" {
+     SourceMaterial "Taktika"
+     AssignedMaterial "{ADF2688E672EEA3A}Assets/Characters/Vests/Vest_Taktika/data/Taktika_OD.emat"
+    }
+   }
+  }
+  RHS_ClothNodeStorageComponent "{5E8ECC6318C07954}" {
+   Attributes SCR_ItemAttributeCollection "{5E8ECC63152ECC55}" {
+    ItemDisplayName UIInfo "{5E8ECC6310D5F5D3}" {
+     Name "#RHS-Vest_Taktika_Base_Name - #RHS-Color_BLK"
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{5312D798A71DFBB1}" {
+   Slots {
+    LoadoutSlotInfo Shoulders {
+     Prefab "{17262970D10CA9C9}Prefabs/Characters/Vests/Vest_Taktika/attachment_Taktika_shoulders_base_black.et"
+    }
+   }
+   WornMaterialsOverride {
+    "{ADF2688E672EEA3A}Assets/Characters/Vests/Vest_Taktika/data/Taktika_OD.emat"
+   }
+   ItemMaterialsOverride {
+    "{ADF2688E672EEA3A}Assets/Characters/Vests/Vest_Taktika/data/Taktika_OD.emat"
+   }
+  }
+ }
+}

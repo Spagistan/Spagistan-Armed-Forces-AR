@@ -1,0 +1,72 @@
+GameEntity : "{916484D0EB7F9923}Prefabs/Characters/Core/AttachableHeadgear_Base.et" {
+ ID "5112706CD4157AC7"
+ components {
+  MeshObject "{5112706CD4157AE0}" {
+   Object "{BEF0FC2FBF4AD61D}Assets/Characters/HeadGear/Helmet_Kiver_RSP/kiver_rsp_cover_item.xob"
+  }
+  SCR_HeadgearInventoryItemComponent "{5244E4431E28A759}" {
+   Attributes SCR_ItemAttributeCollection "{6A0A3D9E81E0502A}" {
+    ItemDisplayName SCR_ItemHintUIInfo "{6A0A3D9E81E55073}" {
+     Name "Kiver Helmet Cover Spagpat"
+     Description "A helmet cover for the Kiver helmet produced by Spagistan."
+     m_aItemHints {
+      SCR_InventoryItemHintUIInfo "{6A0A3D9E81E5505D}" {
+       Name "#RHS-UI_InventoryHint_CanBeattachedToHelmet"
+       Icon "{57075D9983C07F48}UI/Textures/InventoryIcons/Inspection-gizmo-helmet-cover-slot-UI.edds"
+      }
+     }
+    }
+    ItemPhysAttributes ItemPhysicalAttributes "{6A0A3D9E81E55036}" {
+     ItemDimensions 5 2 5
+     ItemVolume 50
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{6A0A3D9E81E55039}" {
+      CameraPreset Top
+     }
+     RHS_CustomAttributes "{6A0A3D9E81E5502F}" {
+      m_sShortName "#RHS-Item_kiver_cover_Name"
+      m_sCompatibleSlotNames {
+       "MeshCover"
+      }
+     }
+     RHS_HelmetCoverAttributes "{61825801D9ABF7BF}" : "{4AE0A6A6323E09EF}Prefabs/Characters/Core/Configs/HelmetCovers/DefaultHelmetCoverAttributes.conf" {
+      m_aInflatedSlotInfo {
+       RHS_InflatedSlotInfo "{61793699DFF446BF}" {
+        m_vInflatedOffset 0 -0.011 0.003
+        m_vInflatedRotation 0 0 0
+       }
+       RHS_InflatedSlotInfo "{61793699DFF446A0}" {
+        m_vInflatedOffset 0 0 0.003
+        m_vInflatedRotation 0 0 0
+       }
+       RHS_InflatedSlotInfo "{61793699DFF446A1}" {
+        m_vInflatedOffset 0 0 0.001
+        m_vInflatedRotation 0.5 0 0
+       }
+       RHS_InflatedSlotInfo "{61793699DFF446AC}" {
+        m_vInflatedOffset 0 0 0.001
+        m_vInflatedRotation -0.5 0 0
+       }
+      }
+     }
+    }
+   }
+  }
+  SCR_ItemOutfitFactionComponent "{64D17D88D18EF4F7}" {
+   m_OutfitDataHolder SCR_OutfitFactionDataHolder "{64D17D88D157C3EC}" {
+    m_aOutfitFactionData {
+     SCR_OutfitFactionData "{64D17D88D0CECA3A}" {
+      m_AffiliatedFactionKey "SPAG"
+     }
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   AreaType RHS_LoadoutKiverCoverSlotArea "{5AD4C744691240D1}" {
+   }
+   WornModel "{89BA43628638E33F}Assets/Characters/HeadGear/Helmet_Kiver_RSP/kiver_spag_worn.et"
+   ItemModel "{D8EBB1970DA6619D}Assets/Characters/HeadGear/Helmet_Kiver_RSP/kiver_spag_item.et"
+  }
+ }
+}

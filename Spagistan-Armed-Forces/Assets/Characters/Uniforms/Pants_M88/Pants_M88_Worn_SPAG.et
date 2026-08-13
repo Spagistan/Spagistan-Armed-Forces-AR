@@ -1,0 +1,15 @@
+GenericEntity {
+ ID "6A032C43A547D17E"
+ components {
+  MeshObject "{6A032C45012BE8B0}" {
+   Object "{1094DDE5E932B418}Assets/Characters/Uniforms/Pants_M88/Pants_M88_01.xob"
+   Materials {
+    MaterialAssignClass "{6A032C4232EA3D8D}" {
+     SourceMaterial "Pants_M88_01"
+     AssignedMaterial "{32418FEFDEE28E81}Assets/Characters/Uniforms/Pants_M88/Data/Pants_M88_01_SPAG.emat"
+    }
+   }
+  }
+ }
+ coords 65.287 -0 66.2
+}

@@ -1,0 +1,181 @@
+GameEntity {
+ ID "6A09300DEA2877FB"
+ components {
+  ParametricMaterialInstanceComponent "{6A093013B21EAFE2}" {
+   UserParamTwo 0
+   ApplyPropertiesWhenMeshChanged 1
+  }
+  Persistence "{6A093013B21EAFE9}" {
+  }
+  MeshObject "{6A093013B263606C}" {
+   Object "{D9E721215D2BC00F}Assets/Characters/Uniforms/Jacket_M88/Jacket_M88_01_rolledup.xob"
+   LODFactors {
+    1
+   }
+   InheritVisibility 1
+  }
+  RigidBody "{6A093013B2636045}" {
+   SimState Collision
+   ModelGeometry 1
+  }
+  SCR_ItemOutfitFactionComponent "{6A093013B263600B}" {
+   m_OutfitDataHolder SCR_OutfitFactionDataHolder "{6A093013B263600D}" {
+    m_aOutfitFactionData {
+     SCR_OutfitFactionData "{6A093013B263600E}" {
+      m_AffiliatedFactionKey "SPAG"
+      m_iOutfitFactionValue 40
+     }
+    }
+   }
+  }
+  SCR_SoundDataComponent "{6A093013B26360EA}" {
+   m_aAudioSourceConfiguration {
+    SCR_AudioSourceConfiguration "{6A093013B26360FA}" {
+     m_sSoundProject "{C1AC31AEF1665302}Sounds/Items/_SharedData/PickUp/Items_PickUp_Uniform.acp"
+     m_sSoundEventName "SOUND_PICK_UP"
+    }
+    SCR_AudioSourceConfiguration "{6A093013B26360E4}" {
+     m_sSoundProject "{C1AC31AEF1665302}Sounds/Items/_SharedData/PickUp/Items_PickUp_Uniform.acp"
+     m_sSoundEventName "SOUND_EQUIP"
+     m_eFlags 0
+    }
+    SCR_AudioSourceConfiguration "{6A093013B26360EB}" {
+     m_sSoundProject "{F62001ED6E9FA253}Sounds/Items/_SharedData/Drop/Items_Drop_Clothes.acp"
+     m_sSoundEventName "SOUND_DROP"
+    }
+   }
+  }
+  SCR_UniversalInventoryStorageComponent "{6A093013B2631EF4}" {
+   components {
+    RHS_ClothNodeStorageComponent "{6A0CE96DEBD22298}" {
+     StoragePurpose 0x40 0
+    }
+    SCR_EquipmentStorageComponent "{6A093013B26360AC}" {
+     Priority 1
+     StoragePurpose 0x40 0x1
+     UseVirtualInventoryReplication 0
+     InitialStorageSlots {
+      SCR_EquipmentStorageSlot FlashlightSlot {
+       PivotID "Spine5"
+       Offset -0.1 0 0.125
+       Enabled 0
+       Prefab "{3A421547BC29F679}Prefabs/Items/Equipment/Flashlights/Flashlight_MX991/Flashlight_MX991.et"
+       AllowedItemTypes {
+        "FLASHLIGHT"
+       }
+       AffectedByOcluders {
+        "ChestLeftTopFront"
+       }
+       AnimatedMeshRefference "{99DD45795E81EFAB}Assets/Characters/Uniforms/Jacket_M88/Jacket_M88_01.xob"
+      }
+     }
+    }
+   }
+   Attributes SCR_ItemAttributeCollection "{6A093013B2631E57}" {
+    ItemDisplayName UIInfo "{6A093013B2631F74}" {
+     Name "M88 Jacket Spagpat - Rolled-up"
+     Description "A BDU jacket produced for the Spagistan Armed Forces. The sleeves are rolled up."
+    }
+    ItemPhysAttributes ItemPhysicalAttributes "{6A093013B2631F45}" {
+     Weight 0.6
+     SizeSetupStrategy Manual
+     ItemDimensions 15 15 15
+     ItemVolume 2000
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{6A093013B2631FE1}" {
+      CameraDistanceToItem 0.75
+      CameraOffset 0 -0.05 0
+      IsDynamicObject 1
+      PreviewWornModel 1
+      PreviewModel "{D9E721215D2BC00F}Assets/Characters/Uniforms/Jacket_M88/Jacket_M88_01_rolledup.xob"
+     }
+    }
+    m_Size SLOT_2x2
+    m_SlotType SLOT_LOADOUT_STORAGE
+   }
+   Priority 2
+   MaxCumulativeVolume 800
+   MaxItemSize 10 10 10
+  }
+  BaseLoadoutClothComponent "{6A093013B2631D3D}" {
+   AreaType LoadoutJacketArea "{6A093013B2631EEA}" {
+   }
+   Slots {
+    LoadoutSlotInfo DummyBelt {
+     Prefab "{ACB6C2B49C1230F9}Prefabs/Characters/Vests/Vest_ALICE/Vest_ALICE_belt_dummy.et"
+    }
+    RHS_LoadoutSlotInfo SleeveRightVelcro {
+     PivotID "RightArmTwist"
+     Offset 0.002 -0.0176 -0.0629
+     Angles -4.3797 174.14391 -5.7063
+     Prefab "{2C48D6E473271FD6}Prefabs/Items/Equipment/Patches/Patch_Spagistan_Flag_embroidered.et"
+     AreaType RHS_LoadoutLargeVelcroSlotArea "{6A0CE972D959EA24}" {
+     }
+     m_bShouldUseCMorphedMesh 1
+     m_sInspectIconTexture "{89731C321CB63D38}UI/Textures/InventoryIcons/Inspection-gizmo-patch-slot-L-alt-UI.edds"
+    }
+    RHS_LoadoutSlotInfo SleeveLeftVelcro {
+     PivotID "LeftArmTwist"
+     Offset 0 0.0226 0.0662
+     Angles 0 0 -178.4106
+     AreaType RHS_LoadoutLargeVelcroSlotArea "{6A0CE97366B169D2}" {
+     }
+     m_bShouldUseCMorphedMesh 1
+     m_fMorphValue 0.8
+    }
+   }
+   WornModel "{B43769D875693D30}Assets/Characters/Uniforms/Jacket_M88/Jacket_M88_rolledup_SPAG.et"
+   ItemModel "{5109E832A237AF68}Assets/Characters/Uniforms/Jacket_M88/Jacket_M88_item_SPAG.et"
+   SoundInt 320
+   OverrideMeshesToHide {
+    "Torso" "ArmUpper_L" "ArmUpper_R"
+   }
+   DepthFront 0.015
+   DeflatedModel "{AF30078FC814076C}Assets/Characters/Uniforms/Jacket_M88/Jacket_M88_rolledup_Deflated_SPAG.et"
+   AreaTypeWhenModelChange {
+    LoadoutArmoredVestSlotArea "{6A093013B2631E87}" {
+    }
+   }
+  }
+  ActionsManagerComponent "{6A093013B2631A79}" {
+   ActionContexts {
+    UserActionContext "{6A093013B2631DE5}" {
+     ContextName "default"
+     Position PointInfo "{6A093013B2631D05}" {
+      Offset 0 0.05 0
+     }
+     Radius 0.5
+    }
+   }
+   additionalActions {
+    SCR_PickUpItemAction "{6A093013B2631C0D}" {
+     ParentContextList {
+      "default"
+     }
+     UIInfo SCR_ActionUIInfo "{6A093013B2631C48}" {
+      Name "#AR-Inventory_PickUp"
+      m_sIconName "pick-up"
+     }
+    }
+    SCR_EquipClothAction "{6A093013B2631A75}" {
+     ParentContextList {
+      "default"
+     }
+     UIInfo SCR_ActionUIInfo "{6A093013B2631CFE}" {
+      Name "#AR-Inventory_Equip"
+      m_sIconName "pick-up"
+     }
+     "Sort Priority" -10
+    }
+   }
+  }
+  RplComponent "{6A093013B2631A57}" {
+   "Rpl State Override" Runtime
+   "Parent Node From Parent Entity" 0
+  }
+  Hierarchy "{6A093013B2631A53}" {
+  }
+ }
+ coords 52.479 0 58.727
+}

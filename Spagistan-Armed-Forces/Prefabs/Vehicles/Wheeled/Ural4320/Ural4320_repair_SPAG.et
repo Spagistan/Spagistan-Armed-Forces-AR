@@ -1,0 +1,124 @@
+Vehicle : "{4597626AF36C0858}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  BaseRadioComponent "{51EAE036CCD0A08E}" {
+   Transceivers {
+    RelayTransceiver "{6A0348BEC9326327}" {
+     "Transmitting Range" 2000
+    }
+   }
+  }
+  RigidBody "{51DAA09FECF52BBF}" {
+   Mass 10663
+   CenterOfMass 0 0.15 0.1
+  }
+  SCR_BaseCompartmentManagerComponent "{20FB66C5DCB8DF72}" {
+   CompartmentSlots {
+    PilotCompartmentSlot PilotCompartment {
+     m_DefaultOccupantData SCR_DefaultOccupantData "{6596EE5B3C7D38F4}" {
+      m_sDefaultOccupantPrefab "{968D3819F8506DBE}Prefabs/Characters/Factions/SPAGISTAN/Character_SPAG_Unarmed.et"
+     }
+    }
+    CargoCompartmentSlot Passenger_r01 {
+     m_DefaultOccupantData SCR_DefaultOccupantData "{59BA9CCC7AFDE010}" {
+      m_sDefaultOccupantPrefab "{968D3819F8506DBE}Prefabs/Characters/Factions/SPAGISTAN/Character_SPAG_Unarmed.et"
+     }
+    }
+    CargoCompartmentSlot Passenger_m01 {
+     m_DefaultOccupantData SCR_DefaultOccupantData "{59BA9CCC78C46847}" {
+      m_sDefaultOccupantPrefab "{EBFB363AC7A5FCE6}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Engineer.et"
+     }
+    }
+   }
+  }
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    Name "#AR-Vehicle_Ural4320_Repair_Name"
+    Description "#AR-EditableEntity_SupportStationSystem_Repair_Description"
+    Icon "{B2F6F389EB78D030}UI/Textures/Editor/EditableEntities/Vehicles/EditableEntity_Repair_Truck.edds"
+    m_Image "{9136012CA0383A48}UI/Textures/EditorPreviews/Vehicles/Wheeled/Ural4320/Ural4320_repair.edds"
+    m_sFaction "SPAG"
+    m_aAuthoredLabels + {
+     TRAIT_REPAIRING TRAIT_SUPPLYSTORAGE_LARGE TRAIT_VEHICLE_REARMING
+    }
+    m_aAutoLabels {
+     FACTION_SPAGISTAN SIZE_M VEHICLE_TRUCK
+    }
+    m_EntityBudgetCost {
+     SCR_EntityBudgetValue "{5EDC86E4AF8908B6}" {
+      m_Value 175
+     }
+    }
+    m_aOccupantFillCompartmentTypes +{
+    }
+   }
+  }
+  SCR_UniversalInventoryStorageComponent "{5916C58171230A92}" {
+   Attributes SCR_ItemAttributeCollection "{5916C58172622508}" {
+    CustomAttributes {
+     PreviewRenderAttributes "{5916C5816492028E}" {
+      CameraOffset -1 -0.1 0
+     }
+    }
+   }
+   MaxCumulativeVolume 100000
+   MultiSlots {
+    MultiSlotConfiguration "{5A60D38EDB3709A9}" {
+     SlotTemplate InventoryStorageSlot Bandages {
+     }
+    }
+    MultiSlotConfiguration "{6A0348BEC932634E}" {
+     SlotTemplate InventoryStorageSlot repairkit {
+      Prefab "{33B2DFDCD0EBA3DB}Prefabs/Items/Equipment/Kits/RepairKit_01/RepairKit_01_wrench.et"
+     }
+     NumSlots 4
+    }
+   }
+  }
+  SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
+   "faction affiliation" "SPAG"
+  }
+  BaseVehicleNodeComponent "{20FB66C5B2237133}" {
+   components {
+    SCR_BaseHUDComponent "{37C2676694790BC7}" {
+     InfoDisplays {
+      SCR_InfoDisplay "{50E6E6F81354B90F}" {
+       InfoDisplays {
+        SCR_AnalogGaugeMultiSignal "{50E6F12BB4D36587}" {
+         m_fValueMax 300
+         m_fSectionEveryNthValue 150
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo TireHolder {
+     Enabled 0
+    }
+    RegisteringComponentSlotInfo RepairBox {
+     MergePhysics 1
+     Prefab "{2F088A1CDD3FB2F1}Prefabs/Vehicles/Wheeled/Ural4320/VehParts/Ural4320_repair_box.et"
+     RegisterActions 1
+     RegisterDamage 1
+     RegisterCompartments 1
+     RegisterLights 1
+    }
+    RegisteringComponentSlotInfo RepairDecal {
+     Prefab "{D58259D66FC91651}Prefabs/Vehicles/Wheeled/Ural4320/VehParts/Ural4320_repair_decal.et"
+     InheritParentSkeleton 1
+     RegisterDamage 1
+    }
+    RegisteringComponentSlotInfo Arsenal {
+     Prefab "{FC2D5D9BB8DE3EA6}Prefabs/Vehicles/Core/VirtualSlots/Repair_VirtualArsenalSlot.et"
+     DisablePhysicsInteraction 1
+    }
+   }
+  }
+ }
+ coords 1203.226 51 1370.979
+ m_eVehicleType REPAIR
+}

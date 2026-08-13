@@ -1,0 +1,19 @@
+SCR_EditorModeEntity : "{E56F54E533ACE527}Prefabs/Editor/Modes/EditorModeBase.et" {
+ ID "54F0A77282A3AA3B"
+ components {
+  SCR_PlacingEditorComponent "{5145484399BAA2E7}" {
+   m_Registries {
+    SCR_PlaceableEntitiesRegistry "{5264D7AF56B4A4CB}" {
+    }
+    SCR_PlaceableEntitiesRegistry "{69F8C8123CB9A103}" : "{A8E66268133943E1}Configs/Editor/PlaceableEntities/Characters_Spagistan.conf" {
+    }
+    SCR_PlaceableEntitiesRegistry "{6A0348BA7A28E936}" : "{C8D22F89E51BBBCB}Configs/Editor/PlaceableEntities/Vehicles_Spagistan.conf" {
+    }
+    SCR_PlaceableEntitiesRegistry "{6A076804039F5B26}" : "{1F307F4831FA9959}Configs/Editor/PlaceableEntities/Systems/Systems_SPAG.conf" {
+    }
+    SCR_PlaceableEntitiesRegistry "{6A1017846DDA9DEA}" : "{7B07A8D248118E38}Configs/Editor/PlaceableEntities/Compositions/Compositions_SPAG.conf" {
+    }
+   }
+  }
+ }
+}

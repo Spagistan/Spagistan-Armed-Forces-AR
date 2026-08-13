@@ -1,0 +1,5 @@
+MatPBRBasic {
+ Cull none
+ BCRMap "{0AECFB67F02421FB}Assets/Characters/Vests/Vest_Taktika/data/taktika_vest_OD.edds"
+ NMOMap "{C5A2A27D1DF3A0A2}Assets/Characters/Vests/Vest_Taktika/data/Taktika_base_NMO.edds"
+}
