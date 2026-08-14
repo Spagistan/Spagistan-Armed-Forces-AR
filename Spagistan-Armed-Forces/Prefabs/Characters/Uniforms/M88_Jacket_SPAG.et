@@ -84,7 +84,7 @@ GameEntity {
     CustomAttributes {
      PreviewRenderAttributes "{6A032C468DE53218}" {
       CameraDistanceToItem 0.75
-      CameraOffset 0 -0.05 0
+      CameraOffset 0 0.05 0
       IsDynamicObject 1
       PreviewWornModel 1
       PreviewModel "{99DD45795E81EFAB}Assets/Characters/Uniforms/Jacket_M88/Jacket_M88_01.xob"

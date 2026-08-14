@@ -1,5 +1,6 @@
 MatPBRBasic {
  CavityFromAO 1
+ EnableFarHiding 1
  BCRMap "{2E7CCF846DEE64EC}Assets/Characters/Uniforms/Pants_M88/Data/spag_u_m88_pants_item.edds"
  NMOMap "{CBE1FFD1A1CF2E1B}Assets/Characters/Uniforms/Pants_M88/Data/Pants_M88_01_item_NMO.edds"
 }

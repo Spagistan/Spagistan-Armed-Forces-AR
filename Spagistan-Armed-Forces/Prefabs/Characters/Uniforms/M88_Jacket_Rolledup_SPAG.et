@@ -8,7 +8,7 @@ GameEntity {
   Persistence "{6A093013B21EAFE9}" {
   }
   MeshObject "{6A093013B263606C}" {
-   Object "{D9E721215D2BC00F}Assets/Characters/Uniforms/Jacket_M88/Jacket_M88_01_rolledup.xob"
+   Object "{7588FEB4604E234C}Assets/Characters/Uniforms/Jacket_M88/Jacket_M88_01_item.xob"
    LODFactors {
     1
    }
@@ -52,7 +52,7 @@ GameEntity {
     }
     SCR_EquipmentStorageComponent "{6A093013B26360AC}" {
      Priority 1
-     StoragePurpose 0x40 0x1
+     StoragePurpose 0x40 0
      UseVirtualInventoryReplication 0
      InitialStorageSlots {
       SCR_EquipmentStorageSlot FlashlightSlot {
@@ -85,7 +85,7 @@ GameEntity {
     CustomAttributes {
      PreviewRenderAttributes "{6A093013B2631FE1}" {
       CameraDistanceToItem 0.75
-      CameraOffset 0 -0.05 0
+      CameraOffset 0 0.15 0
       IsDynamicObject 1
       PreviewWornModel 1
       PreviewModel "{D9E721215D2BC00F}Assets/Characters/Uniforms/Jacket_M88/Jacket_M88_01_rolledup.xob"
@@ -177,5 +177,4 @@ GameEntity {
   Hierarchy "{6A093013B2631A53}" {
   }
  }
- coords 52.479 0 58.727
 }

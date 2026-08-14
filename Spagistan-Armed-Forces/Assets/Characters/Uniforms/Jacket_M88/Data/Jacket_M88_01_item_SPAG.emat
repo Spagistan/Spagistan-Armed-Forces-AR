@@ -1,5 +1,7 @@
 MatPBRBasic {
+ VFXMap "{67BEDC50A146C9C0}Assets/Characters/Uniforms/Jacket_M88/Data/Jacket_M88_01_VFX.edds"
  CavityFromAO 1
+ EnableFarHiding 1
  BCRMap "{F0ACF4AC4E2155A4}Assets/Characters/Uniforms/Jacket_M88/Data/spag_u_m88_floor.edds"
  NMOMap "{FE421F2C2BA8D265}Assets/Characters/Uniforms/Jacket_M88/Data/Jacket_M88_01_Item_NMO.edds"
 }

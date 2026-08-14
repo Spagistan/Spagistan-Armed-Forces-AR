@@ -1,6 +1,7 @@
 MatPBRBasic {
  AllowUserAlphaBias 1
  DisableUserAphaInShadow 1
+ EnableFarHiding 1
  BCRMap "{5A906EB2D18787E7}Assets/Characters/Patches/data/spag_patch_flag.edds"
  OpacityMap "{70A53F4EA373F142}Assets/Characters/Basebody/Data/HeadClipping_A.edds"
  NMOMap "{B4EF11122112850A}Assets/Characters/Patches/data/patch_Canada_flag_embroidered_NMO.edds"

@@ -1,12 +1,13 @@
 MatPBRMulti {
+ VFXMap "{1932E16FAF7B547F}Assets/Characters/Uniforms/Pants_M88/Data/Pants_m88_01_VFX.edds"
  CavityFromAO 1
+ EnableFarHiding 1
  DirtUserOpacity 1
  DirtOpacity 3
  DirtRoughness 1.2
  DirtBCRMap "{AF397054079FCA57}Assets/Characters/Uniforms/Pants_M88/Data/Pants_m88_01_wound_BCR.edds"
  GlobalMCRMode Multiply
  MCRBrightness 1.5
- VFXMap "{1932E16FAF7B547F}Assets/Characters/Uniforms/Pants_M88/Data/Pants_m88_01_VFX.edds"
  BCR_1 "{E4D541F446E592E2}Assets/Characters/Uniforms/Pants_M88/Data/spag_u_m88_pants.edds"
  NMO_1 "{6940E4C7F31FE513}Assets/Characters/Uniforms/Pants_M88/Data/Pants_m88_01_NMO.edds"
 }

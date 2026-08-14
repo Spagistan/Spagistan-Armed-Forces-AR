@@ -1,3 +1,0 @@
-SubScene {
- Parent "{3048828FE14AE687}worlds/Tests/TestFramework/Autotest_GameMode_Plain.ent"
-}
