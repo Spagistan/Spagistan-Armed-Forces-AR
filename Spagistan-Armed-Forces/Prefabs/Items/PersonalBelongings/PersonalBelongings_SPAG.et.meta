@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{64BD5402093EDD2D}PrefabsEditable/Auto/Compositions/Misc/CustomEntities/InteractionPoints/E_ArsenalBox_SPAG_NoAffiliation.et"
+ Name "{2B469A4D03F0DCD6}Prefabs/Items/PersonalBelongings/PersonalBelongings_SPAG.et"
  Configurations {
   EntityTemplateResourceClass PC {
   }

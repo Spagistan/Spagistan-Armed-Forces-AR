@@ -1,23 +1,23 @@
-GenericEntity : "{0150701FD7034232}Prefabs/Compositions/Misc/CustomEntities/InteractionPoints/ArsenalBox_USSR_NoAffiliation.et" {
+GenericEntity : "{42CD2048ECA9EA7C}Prefabs/Compositions/Misc/CustomEntities/InteractionPoints/ArsenalBox_SPAG_NoAffiliation.et" {
  ID "56F2C6D6F7C6DAFA"
  components {
-  SCR_EditableEntityComponent "{6A101786C09B2E00}" : "{996046FE206C699A}Prefabs/Editor/Components/Default_SCR_EditableEntityComponent.ct" {
+  SCR_EditableEntityComponent "{6A25729C358E3F13}" : "{996046FE206C699A}Prefabs/Editor/Components/Default_SCR_EditableEntityComponent.ct" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
-    Name "(ArsenalBox_USSR_NoAffiliation)"
+    Name "(ArsenalBox_SPAG_NoAffiliation)"
     m_Image "UI/Textures/EditorPreviews/Auto/Compositions/Misc/CustomEntities/InteractionPoints/E_ArsenalBox_SPAG_NoAffiliation.edds"
-    m_sFaction "USSR"
+    m_sFaction "SPAG"
     m_aAuthoredLabels {
-     TRAIT_ARSENAL
+     FACTION_USSR
     }
     m_aAutoLabels {
-     FACTION_USSR ENTITYTYPE_OBJECT SIZE_S TRAIT_REARMING
+     ENTITYTYPE_OBJECT SIZE_S TRAIT_REARMING FACTION_SPAGISTAN
     }
    }
   }
-  SCR_PreviewEntityComponent "{6A101786C09B734C}" : "{6CADA7A88A6265FD}Prefabs/Editor/Components/PreviewEntityComponentClass.ct" {
+  SCR_PreviewEntityComponent "{6A25729C358DE387}" : "{6CADA7A88A6265FD}Prefabs/Editor/Components/PreviewEntityComponentClass.ct" {
    m_bRuntime 1
    m_aEntries {
-    SCR_BasePreviewEntry "{6A101786C09B750F}" {
+    SCR_BasePreviewEntry "{6A25729C358D993B}" {
      m_iParentID -1
      m_Mesh "{56326B665211D386}Assets/Props/Military/AmmoBox/ArsenalBox_01/ArsenalBox_01.xob"
      m_Flags EDITABLE

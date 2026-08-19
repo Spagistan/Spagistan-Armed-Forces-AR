@@ -1,6 +1,17 @@
 SCR_ChimeraCharacter : "{5346CF7E39A65A6B}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Base.et" {
  ID "520EC961A090BE1E"
  components {
+  SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
+   components {
+    SCR_IdentityItemStorageComponent "{62AD01171918DA85}" {
+     InitialStorageSlots {
+      SCR_EquipmentStorageSlot IdentityItem {
+       Prefab "{2B469A4D03F0DCD6}Prefabs/Items/PersonalBelongings/PersonalBelongings_SPAG.et"
+      }
+     }
+    }
+   }
+  }
   SCR_CharacterFactionAffiliationComponent "{520EC9618276DF23}" {
    "faction affiliation" "SPAG"
   }
@@ -10,6 +21,11 @@ SCR_ChimeraCharacter : "{5346CF7E39A65A6B}Prefabs/Characters/Factions/OPFOR/USSR
     m_aAuthoredLabels {
      GROUPSIZE_SMALL ENTITYTYPE_CHARACTER FACTION_SPAGISTAN
     }
+   }
+  }
+  SCR_ExtendedCharacterIdentityComponent "{5AEEA3C8B2AA118B}" {
+   m_ExtendedIdentity SCR_ExtendedCharacterIdentity "{5AEEA3C8BF06C593}" {
+    m_sFactionOfOriginKey "SPAG"
    }
   }
   SCR_CharacterIdentityComponent "{5584CBC63E092DBC}" {
@@ -33,5 +49,22 @@ SCR_ChimeraCharacter : "{5346CF7E39A65A6B}Prefabs/Characters/Factions/OPFOR/USSR
     }
    }
   }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6A2327EA9276C57C}" {
+     TargetStorage "Pants/M88_Pants_SPAG.et"
+     PrefabsToSpawn {
+      "{61D4F80E49BF9B12}Prefabs/Items/Equipment/Compass/Compass_SY183.et" "{D70216B1B2889129}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_US_01.et" "{D70216B1B2889129}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_US_01.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et" "{F849217AB3BA88BE}Prefabs/Items/Equipment/Maps/Map_Paper_01/PaperMap_01_folded_USSR.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6A233D1087CF1E4A}" {
+     TargetStorage "Jacket/M88_Jacket_SPAG.et"
+     PrefabsToSpawn {
+      "{E1A5D4B878AA8980}Prefabs/Items/Equipment/Radios/Radio_R148.et"
+     }
+    }
+   }
+  }
  }
+ coords 0.029 0 0
 }

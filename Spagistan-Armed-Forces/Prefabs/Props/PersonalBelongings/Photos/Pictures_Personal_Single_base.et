@@ -1,0 +1,10 @@
+GenericEntity : "{10C26F96EF7A8CF5}Prefabs/Props/Core/Props_Base.et" {
+ ID "F0DBA538AC2A0552"
+ components {
+  MeshObject "{5872F0EB7FA40561}" {
+   Object "{668C48436435E8DD}Assets/Items/Identity/Belongings_Personal/Pictures_Personal_Single_02.xob"
+  }
+  Hierarchy "{6A233D133B4845D5}" {
+  }
+ }
+}

@@ -8,7 +8,7 @@ GameEntity {
   Persistence "{6A032C468DE52AA4}" {
   }
   MeshObject "{6A032C468DE53397}" {
-   Object "{99DD45795E81EFAB}Assets/Characters/Uniforms/Jacket_M88/Jacket_M88_01.xob"
+   Object "{7588FEB4604E234C}Assets/Characters/Uniforms/Jacket_M88/Jacket_M88_01_item.xob"
    LODFactors {
     1
    }

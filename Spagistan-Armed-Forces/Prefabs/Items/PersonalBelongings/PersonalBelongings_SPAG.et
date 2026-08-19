@@ -1,0 +1,166 @@
+GenericEntity : "{58E10863E2EA8C65}Prefabs/Props/PersonalBelongings/Notebooks/Notebook_Small_01_Personal_base.et" {
+ ID "5256876839A05289"
+ components {
+  SCR_ArsenalRefundEffectComponent "{6A2327EAB691D07B}" {
+   m_aArsenalRefundEffects {
+    SCR_ValuableIntelArsenalRefundEffect "{6A2327EAB691D086}" {
+     m_aWeightedEffectEntries {
+      SCR_ValuableIntelXPEffectEntry "{6A2327EAB691D08B}" {
+       m_iWeight 75
+      }
+      SCR_ValuableIntelXPEffectEntry "{6A2327EAB691D08D}" {
+       m_iWeight 20
+       m_eXPReward VALUABLE_INTEL_HANDIN_MEDIUM
+      }
+      SCR_ValuableIntelXPEffectEntry "{6A2327EAB691D08C}" {
+       m_iWeight 5
+       m_eXPReward VALUABLE_INTEL_HANDIN_LARGE
+      }
+     }
+    }
+   }
+  }
+  SCR_IdentityInventoryItemComponent "{6A2327EAB691D091}" {
+   Attributes SCR_IdentityItemAttributeCollection "{6A2327EAB691D093}" {
+    ItemDisplayName SCR_IdentityItemInventoryUIInfo "{6A2327EAB691D094}" {
+     Name "#AR-Item_Identity_Name"
+     Description "#AR-Item_Identity_Description"
+     m_aItemHints {
+      SCR_BlockUnequipItemHintUIInfo "{6226D8C8C9344FDF}" : "{FE789C872541F8AE}Configs/Inventory/ItemHints/BlockUnequip_ItemHint.conf" {
+      }
+     }
+    }
+    ItemPhysAttributes ItemPhysicalAttributes "{6A2327EAB691D09A}" {
+     Weight 0.1
+     SizeSetupStrategy Manual
+     ItemDimensions 5 5 5
+     ItemVolume 100
+    }
+    ItemAnimationAttributes ItemAnimationAttributes "{6A2327EAB691D09F}" {
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{6A2327EAB691D0A0}" {
+      CameraOrbitAngles 0 180 0
+      CameraDistanceToItem 0.14
+      CameraOffset 0 0.015 0
+      ItemRenderRotation 90 0 0
+      PreviewModel "{2B469A4D03F0DCD6}Prefabs/Items/PersonalBelongings/PersonalBelongings_SPAG.et"
+      PreviewPrefab "{2B469A4D03F0DCD6}Prefabs/Items/PersonalBelongings/PersonalBelongings_SPAG.et"
+      LodModel 0
+      ShowAllChildrens 1
+     }
+     CharacterModifierAttributes "{6A2327EAB691D0A5}" {
+      SpeedLimit 9999
+      ADSSpeedLimit 9999
+      SpeedLimitItemPrimaryAction 9999
+      SpeedLimitHighready 9999
+      AllowGadgetUse 1
+      CanBeEquippedInVehicle 0
+     }
+    }
+    CommonItemType "IDENTITY_ITEM"
+    m_Size SLOT_1x1
+    m_SlotType SLOT_LOADOUT_STORAGE
+    m_bStackable 0
+   }
+  }
+  SCR_SoundDataComponent "{6A2327EAB691D0A6}" {
+   m_aAudioSourceConfiguration {
+    SCR_AudioSourceConfiguration "{6A2327EAB691D0B7}" {
+     m_sSoundProject "{13F8D0DE67678118}Sounds/Items/_SharedData/PickUp/Items_PickUp_Map.acp"
+     m_sSoundEventName "SOUND_PICK_UP"
+    }
+    SCR_AudioSourceConfiguration "{6A2327EAB691D0B9}" {
+     m_sSoundProject "{1ECD530C80D91FA2}Sounds/Items/_SharedData/Drop/Items_Drop_Map.acp"
+     m_sSoundEventName "SOUND_DROP"
+    }
+   }
+  }
+  ActionsManagerComponent "{6A2327EAB691D0BB}" {
+   ActionContexts {
+    UserActionContext "{6A2327EAB691D0BD}" {
+     ContextName "default"
+     Position PointInfo "{6A2327EAB691D0BF}" {
+     }
+    }
+   }
+   additionalActions {
+    SCR_PickUpItemAction "{6A2327EAB691D0C0}" {
+     ParentContextList {
+      "default"
+     }
+     UIInfo SCR_ActionUIInfo "{6A2327EAB691D0C4}" {
+      Name "#AR-Inventory_PickUp"
+      m_sIconName "pick-up"
+     }
+    }
+   }
+  }
+  RplComponent "{5624A88DC2D9928D}" {
+   "Parent Node From Parent Entity" 0
+  }
+  Hierarchy "{6A2327EAB691D0C9}" {
+  }
+ }
+ coords 124.02 1 136.108
+ {
+  $grp GenericEntity {
+   {
+    ID "6A2327E4FB14753F"
+    components {
+     MeshObject "{6A2327E4FA137ECD}" {
+      Object "{A6114484D02835D2}Assets/Items/Identity/Belongings_Personal/Dogtags.xob"
+     }
+    }
+    coords 0.006 0.009 0.016
+    angles 0 -135 0
+   }
+   {
+    ID "6A233D138C703F05"
+    components {
+     MeshObject "{6A233D139C76E69C}" {
+      Object "{1BF8C5BE3DEEC82C}Assets/Items/Identity/Belongings_Personal/Papers_Personal.xob"
+     }
+    }
+    coords 0.028 0.005 -0.002
+    angles 0 15 0
+    scale 0.44
+   }
+   {
+    ID "6A233D13BE39894E"
+    components {
+     MeshObject "{6A233D13B8A4EB89}" {
+      Object "{DB4A09C3242A74C6}Assets/Items/Pack/CigaretteBox.xob"
+     }
+    }
+    coords 0.037 0.015 -0.055
+    angles -90 0 -15
+    scale 0.63
+   }
+   {
+    ID "6A233D13DED3C22D"
+    components {
+     MeshObject "{6A233D13DBDE0B89}" {
+      Object "{393DEB0CA0EA78C3}Assets/Items/Cigarette/cig_floor.xob"
+     }
+    }
+    coords -0.035 0.009 0.026
+    angles 0 -8.013 0
+    scale 0.627
+   }
+   {
+    ID "6A233D13F069D285"
+    components {
+     MeshObject "{6A233D13DBDE0B89}" {
+      Object "{393DEB0CA0EA78C3}Assets/Items/Cigarette/cig_floor.xob"
+     }
+     Hierarchy "{6A236B25029D3A3A}" {
+     }
+    }
+    coords -0.022 0.009 0.04
+    angles 0 -25.903 0
+    scale 0.627
+   }
+  }
+ }
+}

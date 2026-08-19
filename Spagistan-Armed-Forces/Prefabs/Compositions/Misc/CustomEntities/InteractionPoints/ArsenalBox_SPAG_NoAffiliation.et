@@ -1,0 +1,8 @@
+GenericEntity : "{AD59EDEAA26CE792}Prefabs/Props/Military/Compositions/USSR/ArsenalBox_USSR.et" {
+ ID "56F2C6D6F7C6DAFA"
+ components {
+  SCR_FactionAffiliationComponent "{5A50E7655452A21D}" {
+   "faction affiliation" "SPAG"
+  }
+ }
+}

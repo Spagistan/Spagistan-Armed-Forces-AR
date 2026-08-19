@@ -13,5 +13,14 @@ SCR_ChimeraCharacter : "{C245589F6844CA36}Prefabs/Characters/Factions/SPAGISTAN/
     }
    }
   }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6A233D1087CF1E4A}" {
+     PrefabsToSpawn + {
+      "{2B469A4D03F0DCD6}Prefabs/Items/PersonalBelongings/PersonalBelongings_SPAG.et"
+     }
+    }
+   }
+  }
  }
 }

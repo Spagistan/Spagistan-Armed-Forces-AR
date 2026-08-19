@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{64BD5402093EDD2D}PrefabsEditable/Auto/Compositions/Misc/CustomEntities/InteractionPoints/E_ArsenalBox_SPAG_NoAffiliation.et"
+ Name "{BC401D1175E5C44D}Prefabs/Characters/Campaign/Final/OPFOR/USSR_Army/Regular/Campaign_USSR_Player_CombatMedic.et"
  Configurations {
   EntityTemplateResourceClass PC {
   }
