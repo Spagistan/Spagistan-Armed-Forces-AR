@@ -3,7 +3,7 @@ GenericEntity : "{42CD2048ECA9EA7C}Prefabs/Compositions/Misc/CustomEntities/Inte
  components {
   SCR_EditableEntityComponent "{6A25729C358E3F13}" : "{996046FE206C699A}Prefabs/Editor/Components/Default_SCR_EditableEntityComponent.ct" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
-    Name "(ArsenalBox_SPAG_NoAffiliation)"
+    Name "Arsenal Box"
     m_Image "UI/Textures/EditorPreviews/Auto/Compositions/Misc/CustomEntities/InteractionPoints/E_ArsenalBox_SPAG_NoAffiliation.edds"
     m_sFaction "SPAG"
     m_aAuthoredLabels {

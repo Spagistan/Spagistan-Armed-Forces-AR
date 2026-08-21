@@ -1,0 +1,30 @@
+GenericEntity : "{2A3B53114DEAA60B}Prefabs/Compositions/Slotted/SlotFlatSmall/Headquarters_S_USSR_01.et" {
+ ID "5282DCB5DFC8538F"
+ {
+  GenericEntity {
+   ID "5D3706BDCF10AB62"
+   components {
+    ScriptedRadioComponent "{5CB8818C71F12C73}" {
+     Transceivers {
+      RelayTransceiver "{5CB8819A90DC6EFE}" {
+       "Transmitting Range" 12000
+      }
+     }
+    }
+   }
+  }
+  GenericEntity {
+   ID "5D3706BDF0F0CFF8"
+   {
+    GenericEntity {
+     ID "5D3706BECE3A18AD"
+     {
+      GenericEntity {
+       ID "5CB66A108505CA71"
+      }
+     }
+    }
+   }
+  }
+ }
+}
