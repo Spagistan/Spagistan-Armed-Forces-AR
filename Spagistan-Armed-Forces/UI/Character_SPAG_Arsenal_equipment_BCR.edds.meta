@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{F49C171009F0AC16}UI/Character_SPAG_Unarmed_BCR.edds"
+ Name "{865E259900E6E34E}UI/Character_SPAG_Arsenal_equipment_BCR.edds"
  Configurations {
   PNGResourceClass PC : "{EAB5DE3219F9CBA8}Configs/System/ResourceTypes/PC/TextureColorMap.conf" {
   }

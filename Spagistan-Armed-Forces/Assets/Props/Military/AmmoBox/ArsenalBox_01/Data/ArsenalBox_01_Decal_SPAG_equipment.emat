@@ -1,0 +1,6 @@
+MatPBRDecal : "{2239C52C9C1F55EE}Assets/Props/Military/AmmoBox/ArsenalBox_01/Data/ArsenalBox_01_Decal.emat" {
+ GlobalMapsUVTransform MatUVTransform "{6108D84C0CDE462A}" {
+  OffsetU -1
+  OffsetV -0.332
+ }
+}

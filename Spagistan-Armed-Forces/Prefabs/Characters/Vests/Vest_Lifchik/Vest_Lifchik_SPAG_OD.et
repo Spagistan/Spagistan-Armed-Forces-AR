@@ -1,0 +1,31 @@
+GenericEntity : "{9713FE6DDCC9510D}Prefabs/Characters/Vests/Vest_Lifchik/Vest_Lifchik.et" {
+ ID "50E0B40D7407B664"
+ components {
+  MeshObject "{5312D798A817A294}" {
+  }
+  SCR_UniversalInventoryStorageComponent "{5222CB03D1147687}" {
+   components {
+    SCR_EquipmentStorageComponent "{56628A71C36992CD}" {
+     InitialStorageSlots {
+      SCR_EquipmentStorageSlot FlashlightSlot {
+      }
+     }
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{5312D798A71DFBB1}" {
+   Slots {
+    LoadoutSlotInfo Canteen {
+     Enabled 0
+    }
+    LoadoutSlotInfo Belt {
+     Enabled 0
+    }
+   }
+   WornMaterialsOverride {
+    ""
+   }
+   DebugWornModel 1
+  }
+ }
+}

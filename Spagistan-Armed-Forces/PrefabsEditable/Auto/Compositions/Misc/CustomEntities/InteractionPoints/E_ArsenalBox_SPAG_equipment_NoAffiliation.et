@@ -5,7 +5,7 @@ GenericEntity : "{42CD2048ECA9EA7C}Prefabs/Compositions/Misc/CustomEntities/Inte
    Materials {
     MaterialAssignClass "{6108C5B1AF5663FB}" {
      SourceMaterial "ArsenalBox_01_Decal"
-     AssignedMaterial "{F608AC39946BA90B}Assets/Props/Military/AmmoBox/ArsenalBox_01/Data/ArsenalBox_01_Decal_SPAG_general.emat"
+     AssignedMaterial "{A333350AEAFEBE57}Assets/Props/Military/AmmoBox/ArsenalBox_01/Data/ArsenalBox_01_Decal_SPAG_equipment.emat"
     }
     MaterialAssignClass "{6108C5B1AF566318}" {
      SourceMaterial "tarp_EBFB69929B4DE0C6"
@@ -13,10 +13,13 @@ GenericEntity : "{42CD2048ECA9EA7C}Prefabs/Compositions/Misc/CustomEntities/Inte
     }
    }
   }
-  SCR_EditableEntityComponent "{6A31393B2ACF8DFD}" : "{996046FE206C699A}Prefabs/Editor/Components/Default_SCR_EditableEntityComponent.ct" {
+  SCR_ArsenalComponent "{56F2C6D1431AD9AF}" {
+   m_eSupportedArsenalItemTypes 654528
+  }
+  SCR_EditableEntityComponent "{6A31393B2AC4FFA4}" : "{996046FE206C699A}Prefabs/Editor/Components/Default_SCR_EditableEntityComponent.ct" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
-    Name "#AR-Arsenal_Name"
-    m_Image "{B5E7593D193ED874}UI/Character_SPAG_Arsenal_BCR.edds"
+    Name "#AR-EditableEntity_ArsenalEquipment_01_USSR_Name"
+    m_Image "{865E259900E6E34E}UI/Character_SPAG_Arsenal_equipment_BCR.edds"
     m_sFaction "SPAG"
     m_aAuthoredLabels {
      FACTION_USSR TRAIT_ARSENAL
@@ -26,10 +29,10 @@ GenericEntity : "{42CD2048ECA9EA7C}Prefabs/Compositions/Misc/CustomEntities/Inte
     }
    }
   }
-  SCR_PreviewEntityComponent "{6A31393B2ACF36C9}" : "{6CADA7A88A6265FD}Prefabs/Editor/Components/PreviewEntityComponentClass.ct" {
+  SCR_PreviewEntityComponent "{6A31393B2ACBDD40}" : "{6CADA7A88A6265FD}Prefabs/Editor/Components/PreviewEntityComponentClass.ct" {
    m_bRuntime 1
    m_aEntries {
-    SCR_BasePreviewEntry "{6A31393B2ACF2597}" {
+    SCR_BasePreviewEntry "{6A31393B2ACBC65E}" {
      m_iParentID -1
      m_Mesh "{56326B665211D386}Assets/Props/Military/AmmoBox/ArsenalBox_01/ArsenalBox_01.xob"
      m_Flags EDITABLE
@@ -45,7 +48,7 @@ GenericEntity : "{42CD2048ECA9EA7C}Prefabs/Compositions/Misc/CustomEntities/Inte
    additionalActions {
     SCR_ResupplySelfSupportStationAction "{5E22CEC8BA1D1393}" {
      UIInfo SCR_ActionUIInfo "{632287CE2934F78E}" {
-      Icon "{EA975C03DF5422AD}UI/Textures/Editor/EditableEntities/Systems/EditableEntity_System_Arsenal.edds"
+      Icon "{C44DAC10032A8E26}UI/Textures/Editor/EditableEntities/Systems/EditableEntity_System_Arsenal_Equipment.edds"
      }
     }
    }
