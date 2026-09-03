@@ -3,11 +3,11 @@ GenericEntity : "{6B0010136E4CDFEE}Prefabs/Structures/Military/Flags/FlagPole_02
  components {
   SCR_EditableEntityComponent "{5EF0BDF2D0DED99F}" : "{7933327C6791C5D0}Prefabs/Editor/Components/Structures_SCR_EditableEntityComponent.ct" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
-    Name "#AR-EditableEntity_FlagPole_02_V2_USSR_Name"
-    m_Image "{5314EFEBC9EF4B3B}UI/Textures/EditorPreviews/Auto/Structures/Military/Flags/E_FlagPole_02_V2_USSR.edds"
-    m_sFaction "USSR"
+    Name "#spag-EditableEntity_FlagPole_02_V2_SPAG_Name"
+    m_Image "{0D3D9A6764515015}UI/Textures/EditorPreviews/Auto/Structures/Military/Flags/placeholder.edds"
+    m_sFaction "SPAG"
     m_aAuthoredLabels {
-     FACTION_USSR
+     FACTION_SPAGISTAN
     }
     m_aAutoLabels {
      THEME_MILITARY ENTITYTYPE_OBJECT SIZE_M
@@ -39,6 +39,12 @@ GenericEntity : "{6B0010136E4CDFEE}Prefabs/Structures/Military/Flags/FlagPole_02
      m_vScale 1 1 1
      m_vPosition 0 4.396 -0.083
      m_vAngles 0 0 0
+    }
+   }
+  }
+  SlotManagerComponent "{55DAE04E55ECE7FA}" {
+   Slots {
+    EntitySlotInfo Flag {
     }
    }
   }

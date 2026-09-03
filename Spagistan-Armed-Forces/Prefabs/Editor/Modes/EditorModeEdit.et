@@ -6,6 +6,9 @@ SCR_EditorModeEntity : "{E56F54E533ACE527}Prefabs/Editor/Modes/EditorModeBase.et
     SCR_PlaceableEntitiesRegistry "{5264D7AF56B4A4CB}" {
     }
     SCR_PlaceableEntitiesRegistry "{69F8C8123CB9A103}" : "{A8E66268133943E1}Configs/Editor/PlaceableEntities/Characters_Spagistan.conf" {
+     m_Prefabs + {
+      "{6913B4118C42D088}Prefabs/Characters/Factions/SPAGISTAN/Character_SPAG_cadet.et" "{FC7F12590A41B1A1}Prefabs/Characters/Factions/SPAGISTAN/Character_SPAG_Yusupov.et" "{FC7F12590A41B1A2}Prefabs/Characters/Factions/SPAGISTAN/Character_SPAG_Khamidov.et"
+     }
     }
     SCR_PlaceableEntitiesRegistry "{6A0348BA7A28E936}" : "{C8D22F89E51BBBCB}Configs/Editor/PlaceableEntities/Vehicles_Spagistan.conf" {
     }

@@ -3,7 +3,9 @@ SCR_ChimeraCharacter : "{C245589F6844CA36}Prefabs/Characters/Factions/SPAGISTAN/
  components {
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
-    Name "Unarmed"
+    Name "#AR-Role_Unarmed"
+    Icon "{9164E45B9A237FE9}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_Unarmed.edds"
+    IconSetName "EditableEntity_Character_Unnarmed"
     m_Image "{FCE47BC27A1DB3A9}UI/Textures/EditorPreviews/Character_SPAG_Unarmed_BCR.edds"
     m_aAuthoredLabels + {
      TRAIT_UNARMED

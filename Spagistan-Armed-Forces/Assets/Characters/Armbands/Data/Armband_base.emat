@@ -1,0 +1,40 @@
+MatPBRMulti {
+ NormalPower 1.39
+ GlobalNMOMap "{61DE3875B9DBD343}Assets/_SharedData/Fabric/ST_FabricWrinkles_1m_01_NMO.edds"
+ GlobalNMOUVTransform MatUVTransform "{6A455BEBF938B3EC}" {
+  Rotation 18.565
+ }
+ Enabled_4 1
+ Color_4 0.018 0.012 0.007 1
+ BCR_4 "{0FDD8E566DC8812C}Assets/_SharedData/Dirt/ST_Clay_Rough01_1m_BCR.edds"
+ NMO_4 "{370535C4B4BFD3B2}Assets/_SharedData/Dirt/ST_Clay_Rough01_1m_NMO.edds"
+ MaskSharpness_4 0.414
+ MaskOffset_4 0.182
+ Mask_4 "{6370325B98B4F345}Assets/_SharedData/DetailMask/ST_Leaks_01_Mask1.edds"
+ MaskUVScale_4 3
+ Roughness_4 1.5
+ Metalness_4 0
+ Enabled_3 1
+ Color_3 0.018 0.018 0.018 1
+ BCR_3 "{366028E90066FC57}Assets/_SharedData/Dirt/ST_Dirt_Sand_BCR.edds"
+ NMO_3 "{0EB8937BD911AEC9}Assets/_SharedData/Dirt/ST_Dirt_Sand_NMO.edds"
+ MaskSharpness_3 0.811
+ MaskOffset_3 0.172
+ Mask_3 "{A074608E879A25CB}Assets/_SharedData/DetailMask/ST_Dirt_01_Mask1.edds"
+ MaskUVScale_3 5.046
+ DetNormal_3 2.018
+ Roughness_3 1.2
+ Enabled_2 1
+ Color_2 0.397 0.397 0.397 1
+ BCR_2 "{794A8F488BA2687E}Assets/_SharedData/Fabric/ST_Fabric_Rough01_1m_BCR.edds"
+ NMO_2 "{419234DA52D53AE0}Assets/_SharedData/Fabric/ST_Fabric_Rough01_1m_NMO.edds"
+ MaskSharpness_2 0.6
+ MaskOffset_2 0.314
+ Mask_2 "{CBD042945A4747A5}Assets/_SharedData/DetailMask/ST_Concrete_03_Mask1.edds"
+ MaskUVScale_2 0.5
+ Roughness_2 1.7
+ Metalness_2 0
+ Color_1 0.114 0.114 0.114 1
+ NMO_1 "{419234DA52D53AE0}Assets/_SharedData/Fabric/ST_Fabric_Rough01_1m_NMO.edds"
+ Metalness_1 0
+}

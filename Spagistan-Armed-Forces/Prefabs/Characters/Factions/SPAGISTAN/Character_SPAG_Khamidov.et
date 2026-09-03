@@ -1,0 +1,108 @@
+SCR_ChimeraCharacter : "{5346CF7E39A65A6B}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Base.et" {
+ ID "520EC961A090BE1E"
+ components {
+  SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
+   components {
+    SCR_IdentityItemStorageComponent "{62AD01171918DA85}" {
+     InitialStorageSlots {
+      SCR_EquipmentStorageSlot IdentityItem {
+      }
+     }
+    }
+   }
+  }
+  SCR_CharacterFactionAffiliationComponent "{520EC9618276DF23}" {
+   "faction affiliation" ""
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#spag-Khamidov"
+    Icon "{A26C465A6AE2AA17}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_Leader.edds"
+    m_Image "{CA64A305E2A1D9AA}UI/Textures/EditorPreviews/Khamidov.edds"
+    m_sFaction "SPAG"
+    m_aAuthoredLabels {
+     GROUPSIZE_SMALL ENTITYTYPE_CHARACTER FACTION_SPAGISTAN ROLE_LEADER GROUPSIZE_SMALL
+    }
+   }
+  }
+  SCR_ExtendedCharacterIdentityComponent "{5AEEA3C8B2AA118B}" {
+   m_ExtendedIdentity SCR_ExtendedCharacterIdentity "{5AEEA3C8BF06C593}" {
+    m_iAge 38
+    m_iDayOfCreation 14
+    m_iMonthOfCreation 10
+    m_sFactionOfOriginKey "USSR"
+    m_PlaceOfOrigin SCR_UIInfo "{6A463C680DDC4E8B}" {
+     Name "Tbilisi, Georgia"
+    }
+    m_eBloodType O_NEGATIVE
+   }
+   m_IdentityBio SCR_IdentityBio "{6A463C680DDC4D7B}" {
+    m_sBio "A former drug smuggler turned ruthless fighter who is known for his brutal precision and swift strikes. He controls a network of smugglers and mercenaries, using fear as a weapon."
+   }
+   m_iMinRandomAge 38
+   m_iMaxRandomAge 38
+   m_bRandomizeIdentityOnInit 0
+  }
+  SCR_CharacterIdentityComponent "{5584CBC63E092DBC}" {
+   Override 1
+   Identity Identity "{5584CBC6363C648B}" {
+    VisualIdentity VisualIdentity "{56E6D9456009D1C4}" {
+     Head "{7E5508ED97DA8699}Prefabs/Characters/Heads/Head_kruglikov.et"
+     Body "{E5964C6E27D8199E}Prefabs/Characters/Basebody/CharacterBasebody_02.et"
+    }
+    Name "Arbi"
+    Alias ""
+    Surname "Khamidov"
+   }
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{7B42DB891C879E3E}Prefabs/Characters/Uniforms/Shirt_CP_G3/BLACK_color/CP_G3_Shirt_ColA_BaseT_FullS_BLK.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{037DD3060547B417}Prefabs/Characters/Vests/Vest_JPC/Vest_JPC_MCBlk.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{28E6A18D82F3E511}Prefabs/Characters/Uniforms/Pants_CP_G3/BLACK_color/CP_G3_Pants_base_BLK.et"
+    }
+    LoadoutSlotInfo Boots {
+     Prefab "{057E63449502EBCA}Prefabs/Characters/Footwear/Boots_Salomon/Footwear_Salomon.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{6B7199E09939ADE0}Prefabs/Characters/Vests/Vest_JPC/variants/Vest_JPC_MCBlk_ronin.et"
+    }
+    LoadoutSlotInfo HandWear {
+     Prefab "{ABB779CFC2E11E89}Prefabs/Characters/Handwear/Gloves_MechanixMpact/Gloves_mpack_Covert.et"
+    }
+    LoadoutSlotInfo Head {
+    }
+    LoadoutSlotInfo Eyes {
+     Prefab "{608F66AB8B36B85D}Prefabs/Characters/Eyewear/crossbow/Eyewear_ess_crossbow_blk.et"
+    }
+    LoadoutSlotInfo Face {
+     Prefab "{40ED520CE1154848}Prefabs/Characters/HeadGear/Balaclavas/LShZ_Balaclava/Balaclava_LShZ_black.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6A463C680DDC4D69}" {
+     TargetStorage "Pants/CP_G3_Pants_base_BLK.et"
+     PrefabsToSpawn {
+      "{61D4F80E49BF9B12}Prefabs/Items/Equipment/Compass/Compass_SY183.et" "{D70216B1B2889129}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_US_01.et" "{D70216B1B2889129}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_US_01.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et" "{F849217AB3BA88BE}Prefabs/Items/Equipment/Maps/Map_Paper_01/PaperMap_01_folded_USSR.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6A463C680DDC4D57}" {
+     TargetStorage "Jacket/CP_G3_Shirt_ColA_BaseT_FullS_BLK.et"
+     PrefabsToSpawn {
+      "{E1A5D4B878AA8980}Prefabs/Items/Equipment/Radios/Radio_R148.et"
+     }
+    }
+   }
+  }
+ }
+ coords 0.029 0 0
+}

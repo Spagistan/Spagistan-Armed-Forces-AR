@@ -1,0 +1,21 @@
+GameEntity : "{3B54BCA3D0BCEECB}Prefabs/Items/Equipment/Patches/Patch_Canada_Flag_embroidered.et" {
+ ID "5DB09136945FC6DB"
+ components {
+  InventoryItemComponent "{5DB09136B1C985CE}" {
+   Attributes SCR_ItemAttributeCollection "{5DB09136B1C985C1}" {
+    ItemDisplayName SCR_ItemHintUIInfo "{5DB09136B1C985EB}" {
+     Name "Herrington Patch"
+     Description "A patch depicting SGM. Herrington after a long day of whipping recruits into shape."
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{5DB09136B1C9859A}" {
+   WornMaterialsOverride {
+    "{A862087601FA106A}Assets/Characters/Patches/data/patch_spag_herrington.emat"
+   }
+   ItemMaterialsOverride {
+    "{A862087601FA106A}Assets/Characters/Patches/data/patch_spag_herrington.emat"
+   }
+  }
+ }
+}

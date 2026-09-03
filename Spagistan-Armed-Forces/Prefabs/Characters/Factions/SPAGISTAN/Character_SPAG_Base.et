@@ -6,7 +6,6 @@ SCR_ChimeraCharacter : "{5346CF7E39A65A6B}Prefabs/Characters/Factions/OPFOR/USSR
     SCR_IdentityItemStorageComponent "{62AD01171918DA85}" {
      InitialStorageSlots {
       SCR_EquipmentStorageSlot IdentityItem {
-       Prefab "{2B469A4D03F0DCD6}Prefabs/Items/PersonalBelongings/PersonalBelongings_SPAG.et"
       }
      }
     }

@@ -124,6 +124,7 @@ GameEntity {
      Offset 0.0056 0.0226 0.0623
      Angles 1.1974 -2.2365 179.9532
      MergePhysics 1
+     Prefab "{6AB924F90BCFD136}Prefabs/Items/Equipment/Patches/CDF_NameTape_Sleeve.et"
      AreaType RHS_LoadoutLargeVelcroSlotArea "{6A0CE909E6DF9ED0}" {
      }
      m_bShouldUseCMorphedMesh 1

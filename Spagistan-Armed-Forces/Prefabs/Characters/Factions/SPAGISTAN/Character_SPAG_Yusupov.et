@@ -1,0 +1,101 @@
+SCR_ChimeraCharacter : "{5346CF7E39A65A6B}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Base.et" {
+ ID "520EC961A090BE1E"
+ components {
+  SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
+   components {
+    SCR_IdentityItemStorageComponent "{62AD01171918DA85}" {
+     InitialStorageSlots {
+      SCR_EquipmentStorageSlot IdentityItem {
+      }
+     }
+    }
+   }
+  }
+  SCR_CharacterFactionAffiliationComponent "{520EC9618276DF23}" {
+   "faction affiliation" "SPAG"
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#spag-Yusupov"
+    Icon "{A26C465A6AE2AA17}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_Leader.edds"
+    m_Image "{2551E5873D91E995}UI/Textures/EditorPreviews/Yusupovblur.edds"
+    m_sFaction "SPAG"
+    m_aAuthoredLabels {
+     GROUPSIZE_SMALL ENTITYTYPE_CHARACTER FACTION_SPAGISTAN ROLE_LEADER GROUPSIZE_SMALL
+    }
+   }
+  }
+  SCR_ExtendedCharacterIdentityComponent "{5AEEA3C8B2AA118B}" {
+   m_ExtendedIdentity SCR_ExtendedCharacterIdentity "{5AEEA3C8BF06C593}" {
+    m_iAge 42
+    m_iDayOfCreation 23
+    m_iMonthOfCreation 8
+    m_sFactionOfOriginKey "USSR"
+    m_PlaceOfOrigin SCR_UIInfo "{6A463C697C82D60A}" {
+     Name "Grozny, Chechnya"
+    }
+    m_eBloodType B_POSITIVE
+   }
+   m_IdentityBio SCR_IdentityBio "{6A4636D238C2A50B}" {
+    m_sBio "a former special forces operative known for his cold, calculating nature, Yusupov has built a reputation as a master of ambushes and psychological warfare. He controls a network of smugglers and fighters for Spagistan."
+   }
+   m_iMinRandomAge 42
+   m_iMaxRandomAge 42
+   m_bRandomizeIdentityOnInit 0
+  }
+  SCR_CharacterIdentityComponent "{5584CBC63E092DBC}" {
+   Override 1
+   Identity Identity "{5584CBC6363C648B}" {
+    VisualIdentity VisualIdentity "{56E6D9456009D1C4}" {
+     Head "{99D4B6934C647C82}Prefabs/Characters/Heads/Head_RussianHead_2.et"
+     Body "{E5964C6E27D8199E}Prefabs/Characters/Basebody/CharacterBasebody_02.et"
+    }
+    Name "Khamzat"
+    Alias ""
+    Surname "Yusupov"
+   }
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Jacket {
+     Prefab "{D262D2102B9931C6}Prefabs/Characters/Uniforms/Jacket_M88_rolledup.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{5A7AF2858ABE87B4}Prefabs/Characters/Vests/Vest_6B23/Vest_6B23_base.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{0C37C8742F78CDA9}Prefabs/Characters/Uniforms/Pants_M88_Flora.et"
+    }
+    LoadoutSlotInfo Boots {
+     Prefab "{057E63449502EBCA}Prefabs/Characters/Footwear/Boots_Salomon/Footwear_Salomon.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{89CEA5D3110F4237}Prefabs/Characters/Vests/Vest_Lifchik/Vest_Lifchik_SPAG_OD.et"
+    }
+    LoadoutSlotInfo Head {
+     Prefab "{3FDA3C5B74681C25}Prefabs/Characters/HeadGear/Headphones_Sordin_Liberator/Headphones_liberator.et"
+    }
+    LoadoutSlotInfo Face {
+     Prefab "{494F9EF9C6700796}Prefabs/Items/Smokeables/Smokeable_Cigarette.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6A4623CE2300665A}" {
+     TargetStorage "Pants/Pants_M88_Flora.et"
+     PrefabsToSpawn {
+      "{61D4F80E49BF9B12}Prefabs/Items/Equipment/Compass/Compass_SY183.et" "{D70216B1B2889129}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_US_01.et" "{D70216B1B2889129}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_US_01.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et" "{F849217AB3BA88BE}Prefabs/Items/Equipment/Maps/Map_Paper_01/PaperMap_01_folded_USSR.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6A4623CE23006640}" {
+     TargetStorage "Vest/Vest_Lifchik_SPAG_OD.et"
+     PrefabsToSpawn {
+      "{E1A5D4B878AA8980}Prefabs/Items/Equipment/Radios/Radio_R148.et"
+     }
+    }
+   }
+  }
+ }
+ coords 0.029 0 0
+}

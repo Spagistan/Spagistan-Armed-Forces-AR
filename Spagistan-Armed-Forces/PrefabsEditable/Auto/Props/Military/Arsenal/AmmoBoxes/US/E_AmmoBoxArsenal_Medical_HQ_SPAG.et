@@ -1,0 +1,62 @@
+GenericEntity : "{7B69DFC06320F251}Prefabs/Props/Military/Arsenal/AmmoBoxes/US/AmmoBoxArsenal_Medical_HQ_US.et" {
+ ID "F0DBA538AC2A0552"
+ components {
+  SCR_ArsenalComponent "{589F01C9C8D4A475}" {
+   m_OverwriteArsenalConfig SCR_ArsenalItemListConfig "{6912C5661E5219D9}" {
+    m_aArsenalItems {
+     SCR_ArsenalItemStandalone "{6912C5660711F6F0}" {
+      m_bEnabled 0
+     }
+     SCR_ArsenalItemStandalone "{6912C5660711F6E6}" {
+      m_bEnabled 0
+     }
+     SCR_ArsenalItemStandalone "{6912C5660711F6E0}" {
+      m_bEnabled 0
+     }
+     SCR_ArsenalItemStandalone "{6912C5660711F6E2}" {
+      m_bEnabled 0
+     }
+    }
+   }
+  }
+  SCR_EditableEntityComponent "{6A4623C055BED2CB}" : "{996046FE206C699A}Prefabs/Editor/Components/Default_SCR_EditableEntityComponent.ct" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#AR-EditableEntity_AmmoBoxArsenal_Medical_US_Name"
+    Description "#AR-EditableEntity_ArsenalBox_Description"
+    Icon "{2FC4AA35C510E8F3}UI/Textures/Editor/EditableEntities/Systems/EditableEntity_System_Arsenal_Medical.edds"
+    m_Image "{A87C5E730C53B1A8}UI/Textures/EditorPreviews/Auto/Systems/Arsenal/AmmoBoxes/USSR/E_AmmoBoxArsenal_Medical_HQ_USSR.edds"
+    m_sFaction "SPAG"
+    m_aAuthoredLabels {
+     TRAIT_ARSENAL TRAIT_MEDICAL ENTITYTYPE_SYSTEM FACTION_SPAGISTAN
+    }
+    m_aAutoLabels {
+     FACTION_US THEME_MILITARY SIZE_S TRAIT_REARMING
+    }
+    m_EntityBudgetCost {
+     SCR_EntityBudgetValue "{6A4623C055BE5F31}" {
+      m_BudgetType SYSTEMS
+      m_Value 4
+     }
+    }
+   }
+  }
+  SCR_FactionAffiliationComponent "{5A50E7650A1AE9EC}" {
+   "faction affiliation" "SPAG"
+  }
+  SCR_PreviewEntityComponent "{6A4623C055BE7F0C}" : "{6CADA7A88A6265FD}Prefabs/Editor/Components/PreviewEntityComponentClass.ct" {
+   m_bRuntime 1
+   m_aEntries {
+    SCR_BasePreviewEntry "{6A4623C055BE74B7}" {
+     m_iParentID -1
+     m_Mesh "{FE31750973EA92C7}Assets/Props/Military/AmmoBox/EquipmentBoxWooden_01/EquipmentBoxWooden_Medical_01.xob"
+     m_Flags EDITABLE
+     m_Shape MESH
+     m_iPivotID ""
+     m_vScale 1 1 1
+     m_vPosition 0 0 0
+     m_vAngles 0 0 0
+    }
+   }
+  }
+ }
+}
