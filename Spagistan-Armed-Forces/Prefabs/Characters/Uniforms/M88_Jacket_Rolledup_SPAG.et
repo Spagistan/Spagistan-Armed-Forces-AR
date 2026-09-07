@@ -95,8 +95,10 @@ GameEntity {
     m_SlotType SLOT_LOADOUT_STORAGE
    }
    Priority 2
+   UseCapacityCoefficient 0
    MaxCumulativeVolume 800
    MaxItemSize 10 10 10
+   m_fMaxWeight 5
   }
   BaseLoadoutClothComponent "{6A093013B2631D3D}" {
    AreaType LoadoutJacketArea "{6A093013B2631EEA}" {
@@ -177,4 +179,5 @@ GameEntity {
   Hierarchy "{6A093013B2631A53}" {
   }
  }
+ coords 0.597 0.029 0.126
 }
