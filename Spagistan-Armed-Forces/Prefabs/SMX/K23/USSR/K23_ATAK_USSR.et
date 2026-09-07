@@ -1,0 +1,12 @@
+GenericEntity : "{4BEC27963EF4A510}Prefabs/SMX/K23/Base/K23_ATAK.et" {
+ ID "811D27A943BC0EBE"
+ components {
+  InventoryItemComponent "{69C922314AD11849}" {
+   Attributes SCR_ItemAttributeCollection "{69C922314AD15673}" {
+    ItemPhysAttributes ItemPhysicalAttributes "{69C922314AD1564A}" {
+     ItemDimensions 10 7.09 0.8
+    }
+   }
+  }
+ }
+}
