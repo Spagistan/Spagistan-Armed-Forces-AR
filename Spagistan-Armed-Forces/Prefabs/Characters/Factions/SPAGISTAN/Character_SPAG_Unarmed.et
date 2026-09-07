@@ -6,12 +6,19 @@ SCR_ChimeraCharacter : "{C245589F6844CA36}Prefabs/Characters/Factions/SPAGISTAN/
     Name "#AR-Role_Unarmed"
     Icon "{9164E45B9A237FE9}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_Unarmed.edds"
     IconSetName "EditableEntity_Character_Unnarmed"
-    m_Image "{FCE47BC27A1DB3A9}UI/Textures/EditorPreviews/Character_SPAG_Unarmed_BCR.edds"
+    m_Image "{E8D426DEDC5ABBC4}UI/Textures/EditorPreviews/Character_SPAG_Unarmed_BCR_copy.edds"
     m_aAuthoredLabels + {
      TRAIT_UNARMED
     }
     m_aAutoLabels {
      SIZE_M
+    }
+   }
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Head {
+     Prefab "{9911F55EC05D1A65}Prefabs/Characters/HeadGear/Hat_Patrol_US_01/Hat_Patrol_spag.et"
     }
    }
   }

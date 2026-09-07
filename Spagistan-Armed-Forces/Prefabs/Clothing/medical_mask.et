@@ -1,0 +1,24 @@
+GameEntity : "{C07A52D13353AB2E}Prefabs/Clothing/ZEL_FaceClothing_Base.et" {
+ ID "5D054161007B53E9"
+ components {
+  InventoryItemComponent "{5CDD764EFD83273E}" {
+   Attributes SCR_ItemAttributeCollection "{5CDD764EFD83273D}" {
+    ItemDisplayName UIInfo "{5CDD764EFD83273B}" {
+     Name "Surgical Mask"
+    }
+    ItemPhysAttributes ItemPhysicalAttributes "{5CDD764EFD8327C6}" {
+     Weight 0.1
+     ItemVolume 0.5
+    }
+    m_Size SLOT_1x1
+   }
+  }
+  MeshObject "{5CDD764EFD8327C0}" {
+   Object "{F5C0B5E9CED5A4CC}Assets/Clothing/Facewear/Medical_Mask/Medical_Mask.xob"
+  }
+  BaseLoadoutClothComponent "{5CDD764EFD8327CA}" {
+   WornModel "{F5C0B5E9CED5A4CC}Assets/Clothing/Facewear/Medical_Mask/Medical_Mask.xob"
+   ItemModel "{268588CBE2B5000A}Assets/Clothing/Facewear/Medical_Mask/Medical_Mask_Item.xob"
+  }
+ }
+}

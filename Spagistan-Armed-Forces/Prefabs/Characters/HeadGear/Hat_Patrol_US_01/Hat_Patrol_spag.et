@@ -1,0 +1,38 @@
+GameEntity : "{F516AD5284661632}Prefabs/Characters/HeadGear/Hat_Patrol_US_01/Hat_Patrol_US_01_base.et" {
+ ID "5112706CD4157AC7"
+ components {
+  MeshObject "{5112706CD4157AE0}" {
+   Materials {
+    MaterialAssignClass "{6A4E53607B39A6B2}" {
+     SourceMaterial "Hat_Patrol_US_01"
+     AssignedMaterial "{254D1C369344DC06}Assets/Characters/HeadGear/Hat_Patrol_US_01/Data/Hat_Patrol_US_02.emat"
+    }
+   }
+  }
+  SCR_HeadgearInventoryItemComponent "{5244E4431E28A759}" {
+   Attributes SCR_ItemAttributeCollection "{5244E4431DA56D64}" {
+    ItemDisplayName UIInfo "{5244E443130B31B9}" {
+     Name "#spag-Headgear_PatrolCap_spagpat_Name"
+     Description "A patrol cap made for the Spagistan Armed Forces."
+    }
+   }
+  }
+  SCR_ItemOutfitFactionComponent "{618AD7BA82D0FF27}" {
+   m_OutfitDataHolder SCR_OutfitFactionDataHolder "{61A8D966ECBA4E19}" {
+    m_aOutfitFactionData {
+     SCR_OutfitFactionData "{61A8D966EC303FF3}" {
+      m_AffiliatedFactionKey "SPAG"
+     }
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   WornMaterialsOverride {
+    "{66C66073F4DF497E}Assets/Characters/HeadGear/Hat_Patrol_US_01/Data/Hat_Patrol_spag.emat"
+   }
+   ItemMaterialsOverride {
+    "{66C66073F4DF497E}Assets/Characters/HeadGear/Hat_Patrol_US_01/Data/Hat_Patrol_spag.emat"
+   }
+  }
+ }
+}

@@ -8,6 +8,13 @@ StringTable {
    Author "Aidan"
    LastChanged "Aidan"
   }
+  CustomStringTableItem "{6A4E5361222BEED6}" {
+   Id "spag-Headgear_PatrolCap_spagpat_Name"
+   Target_en_us "Patrol Cap - Spagpat"
+   Modified 1783519760
+   Author "Aidan"
+   LastChanged "Aidan"
+  }
   CustomStringTableItem "{6A453B7A65A39639}" {
    Id "spag-Headquarters"
    Target_en_us "Headquarters"
