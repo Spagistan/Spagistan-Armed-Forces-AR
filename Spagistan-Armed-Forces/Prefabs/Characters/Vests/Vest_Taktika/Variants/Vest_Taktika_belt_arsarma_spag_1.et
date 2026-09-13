@@ -1,0 +1,75 @@
+GameEntity : "{80D146923D4A34FE}Prefabs/Characters/Vests/Vest_Taktika/Variants/Vest_Taktika_belt_arsarma_1.et" {
+ ID "60633E89449A0B9A"
+ components {
+  BaseLoadoutClothComponent "{60633E894989E6AD}" {
+   Slots {
+    LoadoutSlotInfo ak1 {
+     Prefab "{9DA0A02CB471C2EC}Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_wartech_magpouch_mp117_od.et"
+    }
+    LoadoutSlotInfo ak2 {
+     Prefab "{2C7A32236EBBBB7D}Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_wartech_magpouch_mp117_od_2.et"
+    }
+    LoadoutSlotInfo ak3 {
+     Prefab "{C9E67EDA625E2C16}Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_wartech_magpouch_mp117_od_3.et"
+    }
+    LoadoutSlotInfo ak4 {
+     Prefab "{9DA0A02CB471C2EC}Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_wartech_magpouch_mp117_od.et"
+    }
+    LoadoutSlotInfo radio {
+     Prefab "{DD55971A433E1B3F}Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_UP111_radioClosed_OD.et"
+    }
+    LoadoutSlotInfo holster {
+     Offset 0.2034 0.0138 0.1106
+     Prefab "{05CD790F33DDF9D6}Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_HP103_Holster_Olive.et"
+    }
+    LoadoutSlotInfo ak5 {
+     Offset -0.1979 -0.0082 0.0781
+     Prefab "{2C7A32236EBBBB7D}Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_wartech_magpouch_mp117_od_2.et"
+    }
+    LoadoutSlotInfo ak6 {
+     Offset -0.2138 -0.0111 -0.0101
+     Prefab "{9DA0A02CB471C2EC}Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_wartech_magpouch_mp117_od.et"
+    }
+    LoadoutSlotInfo pistol1 {
+     Enabled 0
+    }
+    LoadoutSlotInfo pistol2 {
+     Enabled 0
+    }
+    LoadoutSlotInfo pistol3 {
+    }
+    LoadoutSlotInfo Bayonet {
+     Offset 0.1969 0.0281 -0.0661
+    }
+    LoadoutSlotInfo droppouch {
+     Offset -0.1706 -0.0406 -0.0852
+     Angles 3.0533 16.8779 5.4768
+     Prefab "{AE4368DBA0FFA63E}Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_UP113_DropPouch_OD.et"
+    }
+    LoadoutSlotInfo grenade1 {
+     Prefab "{DA55B848F410889F}Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_GP106_RGD_Pouch_2_OD.et"
+    }
+    LoadoutSlotInfo grenade2 {
+     Prefab "{E1E37169D010019F}Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_GP106_RGD_Pouch_OD.et"
+    }
+    LoadoutSlotInfo akdouble1 {
+     Offset 0.1896 0.005 0.0756
+     Prefab "{9B3FB19617D927E0}Prefabs/Characters/Vests/Vest_Taktika_Pouches/Pouch_ArsArma_magouch_morphed_OD.et"
+    }
+    LoadoutSlotInfo medkit {
+     Offset 0.1664 0.0038 -0.1211
+     Prefab "{70FC7E1299068D0E}Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_UP103_Medkit_OD.et"
+    }
+    LoadoutSlotInfo up102 {
+     Prefab "{743E143FE7F62A6E}Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_UP102_Admin_small_OD.et"
+    }
+    LoadoutSlotInfo up105 {
+     Offset 0.066 0.0201 -0.1659
+     Prefab "{C9BCDDA43BD4FF1E}Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_UP104_utilmini_OD.et"
+    }
+   }
+   WornModel "{F0276F8B4435CA49}Assets/Characters/Belts/Belt_Wartech_TV106/TV106.xob"
+   ItemModel "{595F3EF087206227}Assets/Characters/Belts/Belt_Wartech_TV106/TV106_ground.xob"
+  }
+ }
+}

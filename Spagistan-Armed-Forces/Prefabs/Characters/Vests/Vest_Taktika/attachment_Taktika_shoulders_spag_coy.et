@@ -1,0 +1,10 @@
+GameEntity : "{9DBA43C9AAA001E3}Prefabs/Characters/Vests/Vest_Taktika/attachment_Taktika_shoulders_base.et" {
+ ID "60D1284CB723B85D"
+ components {
+  BaseLoadoutClothComponent "{60D1284CB723BB89}" {
+   WornMaterialsOverride {
+    "{F506A01936AD3754}Assets/Characters/Vests/Vest_Taktika/data/Taktika_spag_coy.emat"
+   }
+  }
+ }
+}

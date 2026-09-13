@@ -64,6 +64,13 @@ StringTable {
    Author "Aidan"
    LastChanged "Aidan"
   }
+  CustomStringTableItem "{6A5A1EF6C8313A8C}" {
+   Id "spag-Vest_Taktika_coy_Name"
+   Target_en_us "Plate Carrier - Spagpat/Coyote"
+   Modified 1784298692
+   Author "aidan"
+   LastChanged "aidan"
+  }
   CustomStringTableItem "{6A4636D264D6A745}" {
    Id "spag-Yusupov"
    Target_en_us "Yusupov"

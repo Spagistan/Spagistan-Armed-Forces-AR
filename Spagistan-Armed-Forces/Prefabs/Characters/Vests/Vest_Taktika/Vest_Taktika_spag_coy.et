@@ -1,0 +1,36 @@
+GameEntity : "{8B12A60F8E0D3F01}Prefabs/Characters/Vests/Vest_Taktika/Vest_Taktika_base.et" {
+ ID "50D8C49B3558F152"
+ components {
+  RHS_ClothNodeStorageComponent "{5E8ECC6318C07954}" {
+   Attributes SCR_ItemAttributeCollection "{5E8ECC63152ECC55}" {
+    ItemDisplayName UIInfo "{5E8ECC6310D5F5D3}" {
+     Name "#spag-Vest_Taktika_coy_Name"
+     Description "Some kind of no-name tactical vest produced for Spagistan."
+    }
+   }
+  }
+  SCR_ItemOutfitFactionComponent "{64D170D31B27039B}" {
+   m_OutfitDataHolder SCR_OutfitFactionDataHolder "{64D170D31ACC5389}" {
+    m_aOutfitFactionData {
+     SCR_OutfitFactionData "{64D170D315AEE057}" {
+      m_AffiliatedFactionKey "SPAG"
+     }
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{5312D798A71DFBB1}" {
+   Slots {
+    LoadoutSlotInfo Shoulders {
+     Prefab "{5852E6DEE5786BDA}Prefabs/Characters/Vests/Vest_Taktika/attachment_Taktika_shoulders_spag_coy.et"
+    }
+   }
+   WornMaterialsOverride {
+    "{F506A01936AD3754}Assets/Characters/Vests/Vest_Taktika/data/Taktika_spag_coy.emat"
+   }
+   ItemMaterialsOverride {
+    "{F506A01936AD3754}Assets/Characters/Vests/Vest_Taktika/data/Taktika_spag_coy.emat"
+   }
+  }
+ }
+ coords 0 0 0
+}

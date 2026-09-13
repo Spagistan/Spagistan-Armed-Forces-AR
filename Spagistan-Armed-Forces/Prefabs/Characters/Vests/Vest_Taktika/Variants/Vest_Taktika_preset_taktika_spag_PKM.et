@@ -1,0 +1,28 @@
+GameEntity : "{54E8E1A933B59AA2}Prefabs/Characters/Vests/Vest_Taktika/Variants/Vest_Taktika_preset_taktika_PKM.et" {
+ ID "60633E89449A0B9A"
+ components {
+  BaseLoadoutClothComponent "{60633E894989E6AD}" {
+   Slots {
+    LoadoutSlotInfo PKM {
+     Prefab "{953FD4E496EB2F24}Prefabs/Characters/Vests/Vest_Taktika_Pouches/Pouch_Mordor_PKM_olive.et"
+    }
+    LoadoutSlotInfo PKM3 {
+     Prefab "{953FD4E496EB2F24}Prefabs/Characters/Vests/Vest_Taktika_Pouches/Pouch_Mordor_PKM_olive.et"
+    }
+    LoadoutSlotInfo Radio {
+     Prefab "{DD55971A433E1B3F}Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_UP111_radioClosed_OD.et"
+    }
+    LoadoutSlotInfo medkit {
+     Prefab "{70FC7E1299068D0E}Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_UP103_Medkit_OD.et"
+    }
+    LoadoutSlotInfo holster {
+     Offset 0.2106 0.0305 0.1156
+     Prefab "{05CD790F33DDF9D6}Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_HP103_Holster_Olive.et"
+    }
+   }
+   WornMaterialsOverride {
+    ""
+   }
+  }
+ }
+}

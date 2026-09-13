@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{0AECFB67F02421FB}Assets/Characters/Vests/Vest_Taktika/data/taktika_vest_OD.edds"
+ Name "{07C2B4C1F436F30E}Assets/Characters/Vests/Vest_Taktika/data/vest_taktika_spag_coy.edds"
  Configurations {
   TIFFResourceClass PC : "{DC555BD399D92412}Configs/System/ResourceTypes/PC/TextureUnspecified.conf" {
    ColorSpace ToSRGB
