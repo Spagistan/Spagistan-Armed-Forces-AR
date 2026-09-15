@@ -8,6 +8,13 @@ StringTable {
    Author "Aidan"
    LastChanged "Aidan"
   }
+  CustomStringTableItem "{6A5A869D4746B722}" {
+   Id "spag-Headgear_Helmet_SSh68_Name"
+   Target_en_us "SSh68 - Spagpat"
+   Modified 1784318027
+   Author "Aidan"
+   LastChanged "Aidan"
+  }
   CustomStringTableItem "{6A4E5361222BEED6}" {
    Id "spag-Headgear_PatrolCap_spagpat_Name"
    Target_en_us "Patrol Cap - Spagpat"
@@ -40,6 +47,13 @@ StringTable {
    Id "spag-Role_Cadet"
    Target_en_us "Garmsar Cadet"
    Modified 1782978845
+   Author "Aidan"
+   LastChanged "Aidan"
+  }
+  CustomStringTableItem "{6A5A869D61DBCE8E}" {
+   Id "spag-Role_Conscript"
+   Target_en_us "Conscript"
+   Modified 1784318038
    Author "Aidan"
    LastChanged "Aidan"
   }

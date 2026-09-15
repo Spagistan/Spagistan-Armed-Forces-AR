@@ -20,6 +20,9 @@ GameEntity : "{8B12A60F8E0D3F01}Prefabs/Characters/Vests/Vest_Taktika/Vest_Takti
   }
   BaseLoadoutClothComponent "{5312D798A71DFBB1}" {
    Slots {
+    RHS_LoadoutSlotInfo ChestVelcro {
+     Prefab "{6A367F17ACF4F302}Prefabs/Items/Equipment/Patches/CDF_NameTape.et"
+    }
     LoadoutSlotInfo Shoulders {
      Prefab "{5852E6DEE5786BDA}Prefabs/Characters/Vests/Vest_Taktika/attachment_Taktika_shoulders_spag_coy.et"
     }

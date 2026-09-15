@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{FFB4F5CA0AF29439}Prefabs/Characters/HeadGear/Helmet_SSh68_01/Helmet_SSh68_01_cover_spag.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}

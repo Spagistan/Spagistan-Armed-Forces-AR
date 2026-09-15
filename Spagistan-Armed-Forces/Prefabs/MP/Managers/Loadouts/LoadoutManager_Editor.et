@@ -11,5 +11,10 @@ SCR_LoadoutManager : "{AA4E7419A1FF65B0}Prefabs/MP/Managers/Loadouts/LoadoutMana
    m_sLoadoutResource "{968D3819F8506DBE}Prefabs/Characters/Factions/SPAGISTAN/Character_SPAG_Unarmed.et"
    m_sAffiliatedFaction "SPAG"
   }
+  SCR_FactionPlayerLoadout "{6A5A869CEA81AA36}" {
+   m_sLoadoutName "#spag-Role_Conscript"
+   m_sLoadoutResource "{472283D51690B783}Prefabs/Characters/Factions/SPAGISTAN/Character_SPAG_Conscript.et"
+   m_sAffiliatedFaction "SPAG"
+  }
  }
 }

@@ -1,0 +1,4 @@
+MatPBRBasic : "{2204BF143BD4D050}Assets/Characters/Vests/Vest_Taktika/data/Taktika.emat" {
+ Color 0.384 0.384 0.384 1
+ BCRMap "{07C2B4C1F436F30E}Assets/Characters/Vests/Vest_Taktika/data/vest_taktika_spag_coy.edds"
+}

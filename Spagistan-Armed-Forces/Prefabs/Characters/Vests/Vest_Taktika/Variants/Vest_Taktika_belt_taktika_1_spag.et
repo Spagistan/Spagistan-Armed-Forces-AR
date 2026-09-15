@@ -1,0 +1,104 @@
+GameEntity : "{14712B6C95CA8557}Prefabs/Characters/Vests/Vest_Taktika/Variants/Vest_Taktika_belt_taktika_1.et" {
+ ID "60633E89449A0B9A"
+ components {
+  BaseLoadoutClothComponent "{60633E894989E6AD}" {
+   Slots {
+    LoadoutSlotInfo pouch1 {
+     Offset 0.1172 0.022 0.1723
+     Prefab "{4FCFA8454D766E94}Prefabs/Characters/Vests/Vest_Taktika_Pouches/Pouch_ArsArma_magouch_morphed_COY.et"
+    }
+    LoadoutSlotInfo pouch4 {
+     Offset -0.1192 0.027 0.1596
+     Prefab "{4FCFA8454D766E94}Prefabs/Characters/Vests/Vest_Taktika_Pouches/Pouch_ArsArma_magouch_morphed_COY.et"
+    }
+    LoadoutSlotInfo pouch2 {
+     Offset 0.0388 0.0212 0.1851
+     Prefab "{4FCFA8454D766E94}Prefabs/Characters/Vests/Vest_Taktika_Pouches/Pouch_ArsArma_magouch_morphed_COY.et"
+    }
+    LoadoutSlotInfo pouch3 {
+     Offset -0.0442 0.0228 0.1825
+     Prefab "{4FCFA8454D766E94}Prefabs/Characters/Vests/Vest_Taktika_Pouches/Pouch_ArsArma_magouch_morphed_COY.et"
+    }
+    LoadoutSlotInfo holster {
+     Offset 0.1853 -0.0151 -0.004
+     Angles 2.1761 94.9552 3.6623
+     Prefab "{4F3860EC46614D69}Prefabs/Items/Equipment/Accessories/ETool_MPL50/RHS_MPL50_Carrier_spag.et"
+    }
+    LoadoutSlotInfo radio {
+     Prefab "{3650DE7381C68BBA}Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_UP111_radioClosed_Base.et"
+    }
+    LoadoutSlotInfo akmag1 {
+     Offset -0.2319 0.0205 0.0357
+     Prefab "{DA55B848F410889F}Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_GP106_RGD_Pouch_2_OD.et"
+    }
+    LoadoutSlotInfo akmag2 {
+     Offset -0.2321 0.0162 -0.0593
+     Prefab "{DA55B848F410889F}Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_GP106_RGD_Pouch_2_OD.et"
+    }
+    LoadoutSlotInfo pistolmag1 {
+     Offset -0.1467 0.0094 0.1188
+     Angles -88.4432 24.0566 -169.6264
+     Enabled 0
+     Prefab "{0AA53CB4EA5DBC32}Prefabs/Characters/Vests/Vest_Ratnik_Pouches/Pouch_6x9Scabbard.et"
+    }
+    LoadoutSlotInfo pistolmag2 {
+     Offset 0.1968 0.0004 -0.0431
+     Angles 1.0857 96.0565 -0.6028
+     Enabled 0
+     Prefab "{3B30DE0E1F512495}Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_MP111_PistolClosed2_OD.et"
+    }
+    LoadoutSlotInfo pistolmag4 {
+     Offset 0.1811 0.0282 0.133
+     Angles 6.4821 45.146 2.0049
+     Prefab "{E1E37169D010019F}Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_GP106_RGD_Pouch_OD.et"
+    }
+    LoadoutSlotInfo UP105_camer {
+     Enabled 0
+     Prefab "{0AA53CB4EA5DBC32}Prefabs/Characters/Vests/Vest_Ratnik_Pouches/Pouch_6x9Scabbard.et"
+    }
+    LoadoutSlotInfo droppouch {
+     Enabled 0
+     Prefab "{AE4368DBA0FFA63E}Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_UP113_DropPouch_OD.et"
+    }
+    LoadoutSlotInfo akdouble1 {
+     Enabled 0
+    }
+    LoadoutSlotInfo up104 {
+     Prefab "{C9BCDDA43BD4FF1E}Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_UP104_utilmini_OD.et"
+    }
+    LoadoutSlotInfo GMR {
+     Enabled 0
+    }
+    LoadoutSlotInfo up101_camer {
+     Offset 0.2261 0.0383 0.0474
+     Prefab "{70FC7E1299068D0E}Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_UP103_Medkit_OD.et"
+    }
+    LoadoutSlotInfo up103_belt {
+     Enabled 0
+    }
+    LoadoutSlotInfo grenade1 {
+     Prefab "{E1E37169D010019F}Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_GP106_RGD_Pouch_OD.et"
+    }
+    LoadoutSlotInfo grenade2 {
+     Prefab "{DA55B848F410889F}Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_GP106_RGD_Pouch_2_OD.et"
+    }
+    LoadoutSlotInfo grenadebelt {
+     Offset -0.1825 0.0149 -0.1381
+     Angles -0.2237 -132.27721 1.6422
+     Prefab "{DA55B848F410889F}Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_GP106_RGD_Pouch_2_OD.et"
+    }
+    LoadoutSlotInfo grenade4 {
+     Offset -0.0615 0.0186 -0.2046
+     Prefab "{E1E37169D010019F}Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_GP106_RGD_Pouch_OD.et"
+    }
+    LoadoutSlotInfo grenade5 {
+     Offset 0.2394 0.015 -0.1466
+     Prefab "{5E608DF49E1BB66A}Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_GP106_RGD_Pouch_base.et"
+    }
+   }
+   WornModel "{F0276F8B4435CA49}Assets/Characters/Belts/Belt_Wartech_TV106/TV106.xob"
+   ItemModel "{595F3EF087206227}Assets/Characters/Belts/Belt_Wartech_TV106/TV106_ground.xob"
+  }
+ }
+ coords 0 0 0
+}

@@ -1,0 +1,38 @@
+GameEntity : "{AE74155267C3D5BB}Prefabs/Characters/HeadGear/Helmet_SSh68_01/Helmet_SSh68_01_cover_base.et" {
+ ID "50D4E2187B1C4408"
+ components {
+  MeshObject "{5112706CD4157AE0}" {
+   Materials {
+    MaterialAssignClass "{6A56029B12EFCCF2}" {
+     SourceMaterial "Helmet_SSh68_01_cover"
+     AssignedMaterial "{030324F0309ACD7F}Assets/Characters/HeadGear/Helmet_SSh68/Data/Helmet_SSh68_01_cover_spag.emat"
+    }
+   }
+  }
+  SCR_HeadgearInventoryItemComponent "{5244E4431E28A759}" {
+   Attributes SCR_ItemAttributeCollection "{5244E4431DA56D64}" {
+    ItemDisplayName UIInfo "{5244E443130B31B9}" {
+     Name "#spag-Headgear_Helmet_SSh68_Name"
+     Description "An old soviet helmet with a cover printed in Spagpat camouflage."
+    }
+   }
+  }
+  SCR_ItemOutfitFactionComponent "{618AD7BA1F930F47}" {
+   m_OutfitDataHolder SCR_OutfitFactionDataHolder "{61A8D9665CD51B84}" {
+    m_aOutfitFactionData {
+     SCR_OutfitFactionData "{61A8D96643B10739}" {
+      m_AffiliatedFactionKey "SPAG"
+     }
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   WornMaterialsOverride {
+    "{030324F0309ACD7F}Assets/Characters/HeadGear/Helmet_SSh68/Data/Helmet_SSh68_01_cover_spag.emat"
+   }
+   ItemMaterialsOverride {
+    "{030324F0309ACD7F}Assets/Characters/HeadGear/Helmet_SSh68/Data/Helmet_SSh68_01_cover_spag.emat"
+   }
+  }
+ }
+}
