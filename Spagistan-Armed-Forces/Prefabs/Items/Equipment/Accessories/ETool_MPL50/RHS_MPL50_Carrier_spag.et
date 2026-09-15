@@ -1,12 +1,10 @@
 GenericEntity : "{FC07732ADAE70D5C}Prefabs/Items/Equipment/Accessories/ETool_MPL50/RHS_MPL50_Carrier.et" {
  ID "52567309FA2F0D67"
  components {
-  MeshObject "{521AC04910AB9941}" {
-  }
   SCR_EquipmentStorageComponent "{5EBC8E97AA41AC85}" {
    InitialStorageSlots {
     SCR_EquipmentStorageSlot mpl {
-     Offset -0.0001 -0.1535 0.0631
+     Offset -0.0001 -0.1534 0.0688
     }
    }
   }

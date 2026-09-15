@@ -1,0 +1,12 @@
+GameEntity : "{DA627786471E28B5}Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_152_Radio.et" {
+ ID "50E0B40D7407B664"
+ components {
+  RHS_EquipmentStorageComponent "{5222CB03D1147687}" {
+   InitialStorageSlots {
+    RHS_MorphedEquipmentStorageSlot PouchStorage {
+     Offset -0.0206 -0.1634 0.0236
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,12 @@
+GameEntity : "{3650DE7381C68BBA}Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_UP111_radioClosed_Base.et" {
+ ID "50E0B40D7407B664"
+ components {
+  RHS_EquipmentStorageComponent "{5222CB03D1147687}" {
+   InitialStorageSlots {
+    RHS_MorphedEquipmentStorageSlot PouchStorage {
+     Offset 0.0255 -0.1948 -0.0113
+    }
+   }
+  }
+ }
+}

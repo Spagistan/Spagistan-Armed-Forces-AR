@@ -1,0 +1,13 @@
+GameEntity : "{E70B1C4F7D193AD5}Prefabs/Characters/Vests/Vest_JPC_Pouches/Pouch_jpc_placard_RGR_AK.et" {
+ ID "50E0B40D7407B664"
+ components {
+  BaseLoadoutClothComponent "{5242D72632990471}" {
+   WornMaterialsOverride {
+    "{98AE1A92F949B67F}Assets/Characters/Vests/Vest_JPC/data/jpc_placard_coy.emat"
+   }
+   ItemMaterialsOverride {
+    "{98AE1A92F949B67F}Assets/Characters/Vests/Vest_JPC/data/jpc_placard_coy.emat"
+   }
+  }
+ }
+}

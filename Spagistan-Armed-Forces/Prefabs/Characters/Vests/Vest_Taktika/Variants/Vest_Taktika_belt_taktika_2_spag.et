@@ -4,19 +4,23 @@ GameEntity : "{14712B6C95CA8557}Prefabs/Characters/Vests/Vest_Taktika/Variants/V
   BaseLoadoutClothComponent "{60633E894989E6AD}" {
    Slots {
     LoadoutSlotInfo pouch1 {
-     Offset 0.1172 0.022 0.1723
-     Prefab "{4FCFA8454D766E94}Prefabs/Characters/Vests/Vest_Taktika_Pouches/Pouch_ArsArma_magouch_morphed_COY.et"
+     Offset -0.0006 0.0304 0.1718
+     Angles -6.8172 -0.3346 0.7072
+     Prefab "{9E46D85A81CCB1AD}Prefabs/Characters/Vests/Vest_JPC_Pouches/Pouch_jpc_placard_Coy_AK.et"
     }
     LoadoutSlotInfo pouch4 {
      Offset -0.1192 0.027 0.1596
+     Enabled 0
      Prefab "{4FCFA8454D766E94}Prefabs/Characters/Vests/Vest_Taktika_Pouches/Pouch_ArsArma_magouch_morphed_COY.et"
     }
     LoadoutSlotInfo pouch2 {
      Offset 0.0388 0.0212 0.1851
+     Enabled 0
      Prefab "{4FCFA8454D766E94}Prefabs/Characters/Vests/Vest_Taktika_Pouches/Pouch_ArsArma_magouch_morphed_COY.et"
     }
     LoadoutSlotInfo pouch3 {
      Offset -0.0442 0.0228 0.1825
+     Enabled 0
      Prefab "{4FCFA8454D766E94}Prefabs/Characters/Vests/Vest_Taktika_Pouches/Pouch_ArsArma_magouch_morphed_COY.et"
     }
     LoadoutSlotInfo holster {
