@@ -29,9 +29,9 @@ GameEntity : "{14712B6C95CA8557}Prefabs/Characters/Vests/Vest_Taktika/Variants/V
      Prefab "{4F3860EC46614D69}Prefabs/Items/Equipment/Accessories/ETool_MPL50/RHS_MPL50_Carrier_spag.et"
     }
     LoadoutSlotInfo radio {
-     Offset -0.194 0.0449 -0.1536
-     Angles 0.6993 144.58479 -2.5863
-     Prefab "{2710849DE1BF9E50}Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_152_Radio_spag.et"
+     Offset -0.221 0.0456 -0.1545
+     Angles 2.2188 -106.4274 1.5019
+     Prefab "{5CB61EB11A256663}Prefabs/Characters/Vests/Vest_Taktika_Pouches/Pouch_Taktika_radioPouch_SPAG.et"
     }
     LoadoutSlotInfo akmag1 {
      Offset 0.2292 0.0216 -0.0803

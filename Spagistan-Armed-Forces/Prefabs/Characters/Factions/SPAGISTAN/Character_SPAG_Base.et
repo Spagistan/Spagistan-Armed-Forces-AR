@@ -59,7 +59,7 @@ SCR_ChimeraCharacter : "{5346CF7E39A65A6B}Prefabs/Characters/Factions/OPFOR/USSR
     ItemsInitConfigurationItem "{6A233D1087CF1E4A}" {
      TargetStorage "Jacket/M88_Jacket_SPAG.et"
      PrefabsToSpawn {
-      "{2CA0CB166EB6E34E}Prefabs/Items/Equipment/Radios/Radio_R187P1_OLD_SPAG.et"
+      "{9AFB887C6B81C5EA}Prefabs/Items/Equipment/Radios/Radio_Boofung_SPAG.et"
      }
     }
    }

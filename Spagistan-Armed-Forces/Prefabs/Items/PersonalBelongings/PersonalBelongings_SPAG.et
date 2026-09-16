@@ -1,62 +1,17 @@
-GenericEntity : "{B260126B778C842A}Prefabs/Items/PersonalBelongings/PersonalBelongings_base.et" {
+GenericEntity : "{E096C6BD45C87B63}Prefabs/Items/PersonalBelongings/PersonalBelongings_USSR.et" {
  ID "5256876839A05289"
  components {
   MeshObject "{5872F0EB7FA40561}" {
    Materials {
-    MaterialAssignClass "{6A4623C2B2D91CAF}" {
+    MaterialAssignClass "{616AA0B9CE79FCBF}" {
      SourceMaterial "Notebook_01_Personal_Base_US_MLOD"
-     AssignedMaterial "{5931B49C9E74A782}Assets/Items/Identity/Belongings_Personal/Data/Notebook_01_Personal_Base_FIA_MLOD.emat"
+     AssignedMaterial "{5F5C651601660659}Assets/Items/Identity/Belongings_Personal/Data/Notebook_01_Personal_Base_US_MLOD.emat"
     }
-    MaterialAssignClass "{6A4623C2B2D91C85}" {
+    MaterialAssignClass "{616AA0B9CE79FB56}" {
      SourceMaterial "Personal_Belongings_Generic_Book_US"
      AssignedMaterial "{6AC2F0B631A3AD89}Assets/Items/Identity/Belongings_Personal/Data/Personal_Belongings_Generic_Book_SPAG.emat"
     }
    }
-  }
-  SCR_IdentityInventoryItemComponent "{5EF0BA9A1F1072AB}" {
-   Attributes SCR_IdentityItemAttributeCollection "{5222EB4D0A2B466B}" {
-    CustomAttributes {
-     PreviewRenderAttributes "{5E0282EAD947229C}" {
-      CameraOrbitAngles 0 195 0
-      CameraDistanceToItem 0.2
-      CameraOffset 0 0.015 0
-      ItemRenderRotation 90 0 0
-      PreviewPrefab "{68E244F4B1A7D84C}Prefabs/Items/PersonalBelongings/PersonalBelongings_spag.et"
-     }
-    }
-   }
-  }
- }
- coords 125.104 1 136.549
- {
-  GenericEntity : "{80302DFE6DAC6E3C}Prefabs/Props/PersonalBelongings/Papers/Papers_Personal_USSR.et" {
-   ID "6A455BFA9086BA30"
-   components {
-    MeshObject "{5872F0EB7FA40561}" {
-     Materials {
-      MaterialAssignClass "{615EDA963118BFE1}" {
-       SourceMaterial "Personal_Belongings_Generic_PhotosPapers_US"
-       AssignedMaterial "{E617B4ACC4417017}Assets/Items/Identity/Belongings_Personal/Data/Personal_Belongings_Generic_PhotosPapers_US.emat"
-      }
-     }
-    }
-   }
-   coords 0.015 0 -0.012
-  }
-  GenericEntity : "{8F6C71B091CBC056}Prefabs/Props/PersonalBelongings/Dogtags/Dogtags_generic.et" {
-   ID "6A455BFA9086BA3E"
-   coords 0.003 0.011 0.001
-   angles 0 0 -1.713
-  }
-  GenericEntity : "{A39644FE92BB6D49}Prefabs/Props/PersonalBelongings/Photos/Pictures_Personal_Single_USSR_01.et" {
-   ID "6A455BFA9086BA3D"
-   coords -0.05 0 -0.021
-   angles 0 150 0
-  }
-  GenericEntity : "{CFC2701E2E7FE267}Prefabs/Props/PersonalBelongings/Photos/Pictures_Personal_Single_USSR_02.et" {
-   ID "6A455BFA90869110"
-   coords 0.076 0.006 0
-   angles 0 166.184 0
   }
  }
 }

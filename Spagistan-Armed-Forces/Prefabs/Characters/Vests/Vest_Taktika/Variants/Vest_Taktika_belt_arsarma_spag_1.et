@@ -16,7 +16,8 @@ GameEntity : "{80D146923D4A34FE}Prefabs/Characters/Vests/Vest_Taktika/Variants/V
      Prefab "{9DA0A02CB471C2EC}Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_wartech_magpouch_mp117_od.et"
     }
     LoadoutSlotInfo radio {
-     Prefab "{DD55971A433E1B3F}Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_UP111_radioClosed_OD.et"
+     Offset 0.2102 0.0447 -0.1773
+     Prefab "{5CB61EB11A256663}Prefabs/Characters/Vests/Vest_Taktika_Pouches/Pouch_Taktika_radioPouch_SPAG.et"
     }
     LoadoutSlotInfo holster {
      Offset 0.2034 0.0138 0.1106

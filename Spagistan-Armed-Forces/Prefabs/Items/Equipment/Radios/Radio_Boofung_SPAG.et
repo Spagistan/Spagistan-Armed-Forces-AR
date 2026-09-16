@@ -1,0 +1,26 @@
+GenericEntity : "{AC04D0D1EABC994F}Prefabs/Items/Equipment/Radios/Radio_R148.et" {
+ ID "508AB2013EEE1E00"
+ components {
+  BaseRadioComponent "{5A30BAE7673C63CA}" {
+   Transceivers {
+    RadioTransceiver "{6A56B4A5C3A1A86F}" {
+     "Transmitting Range" 13000
+    }
+    RadioTransceiver "{6A56B4A5C3A1A860}" {
+     "Transmitting Range" 13000
+    }
+   }
+  }
+  InventoryItemComponent "{5222EB4D0C73006B}" {
+   Attributes SCR_ItemAttributeCollection "{5222EB4D0A2B466B}" {
+    ItemDisplayName UIInfo "{5222EB4D07D865FA}" {
+     Name "Boofeng UB-5R"
+     Description "a popular, budget-friendly 5W dual-band handheld amateur radio that typically costs around $22.99."
+    }
+   }
+  }
+  SCR_RadioComponent "{5A30BAE7673C63D4}" {
+   m_bIsVisibleEquipped 1
+  }
+ }
+}

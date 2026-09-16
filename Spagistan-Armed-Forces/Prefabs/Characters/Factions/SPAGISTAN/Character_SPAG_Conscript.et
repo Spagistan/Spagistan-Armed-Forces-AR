@@ -27,6 +27,9 @@ SCR_ChimeraCharacter : "{968D3819F8506DBE}Prefabs/Characters/Factions/SPAGISTAN/
   }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{FFB4F5CA0AF29439}Prefabs/Characters/HeadGear/Helmet_SSh68_01/Helmet_SSh68_01_cover_spag.et"
+    }
     LoadoutSlotInfo ArmoredVest {
      Prefab "{0AB5B786C5A5F735}Prefabs/Characters/Vests/Vest_Taktika/Vest_Taktika_spag_coy.et"
     }
@@ -40,7 +43,6 @@ SCR_ChimeraCharacter : "{968D3819F8506DBE}Prefabs/Characters/Factions/SPAGISTAN/
      Prefab "{C073037A6456D682}Prefabs/Characters/Vests/Vest_Taktika/Variants/Vest_Taktika_belt_taktika_1_spag.et"
     }
     LoadoutSlotInfo Head {
-     Prefab "{FFB4F5CA0AF29439}Prefabs/Characters/HeadGear/Helmet_SSh68_01/Helmet_SSh68_01_cover_spag.et"
     }
    }
   }
@@ -62,10 +64,10 @@ SCR_ChimeraCharacter : "{968D3819F8506DBE}Prefabs/Characters/Factions/SPAGISTAN/
       "{062E2F1D7F6739D6}Prefabs/Items/Equipment/Accessories/ETool_MPL50/ETool_MPL50_FreeRoamBuilding_Gadget.et"
      }
     }
-    ItemsInitConfigurationItem "{6A5E108D4347B0C2}" {
-     TargetStorage "Vest/Vest_Taktika_belt_taktika_1_spag.et/radio/Pouch_152_Radio_spag.et"
+    ItemsInitConfigurationItem "{6A604DC86B3A6464}" {
+     TargetStorage "Vest/Vest_Taktika_belt_taktika_1_spag.et/radio/Pouch_Taktika_radioPouch_SPAG.et"
      PrefabsToSpawn {
-      "{2CA0CB166EB6E34E}Prefabs/Items/Equipment/Radios/Radio_R187P1_OLD_SPAG.et"
+      "{9AFB887C6B81C5EA}Prefabs/Items/Equipment/Radios/Radio_Boofung_SPAG.et"
      }
     }
     ItemsInitConfigurationItem "{6A5E108ABB2D8BF5}" {

@@ -17,16 +17,18 @@ SCR_ChimeraCharacter : "{C245589F6844CA36}Prefabs/Characters/Factions/SPAGISTAN/
   }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
-    LoadoutSlotInfo Head {
+    LoadoutSlotInfo Hat {
      Prefab "{9911F55EC05D1A65}Prefabs/Characters/HeadGear/Hat_Patrol_US_01/Hat_Patrol_spag.et"
+    }
+    LoadoutSlotInfo Head {
     }
    }
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
     ItemsInitConfigurationItem "{6A233D1087CF1E4A}" {
-     PrefabsToSpawn {
-      "{2CA0CB166EB6E34E}Prefabs/Items/Equipment/Radios/Radio_R187P1_OLD_SPAG.et" ""
+     PrefabsToSpawn + {
+      ""
      }
     }
    }
