@@ -10,7 +10,7 @@ GameEntity : "{54E8E1A933B59AA2}Prefabs/Characters/Vests/Vest_Taktika/Variants/V
      Prefab "{953FD4E496EB2F24}Prefabs/Characters/Vests/Vest_Taktika_Pouches/Pouch_Mordor_PKM_olive.et"
     }
     LoadoutSlotInfo Radio {
-     Prefab "{DD55971A433E1B3F}Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_UP111_radioClosed_OD.et"
+     Prefab "{5CB61EB11A256663}Prefabs/Characters/Vests/Vest_Taktika_Pouches/Pouch_Taktika_radioPouch_SPAG.et"
     }
     LoadoutSlotInfo medkit {
      Prefab "{70FC7E1299068D0E}Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_UP103_Medkit_OD.et"

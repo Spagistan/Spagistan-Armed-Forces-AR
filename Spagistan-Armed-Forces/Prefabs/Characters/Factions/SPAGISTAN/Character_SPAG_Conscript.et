@@ -70,8 +70,8 @@ SCR_ChimeraCharacter : "{968D3819F8506DBE}Prefabs/Characters/Factions/SPAGISTAN/
       "{9AFB887C6B81C5EA}Prefabs/Items/Equipment/Radios/Radio_Boofung_SPAG.et"
      }
     }
-    ItemsInitConfigurationItem "{6A5E108ABB2D8BF5}" {
-     TargetStorage "Vest/Vest_Taktika_belt_taktika_1_spag.et/pouch1/Pouch_ArsArma_magouch_morphed_COY.et"
+    ItemsInitConfigurationItem "{6A613BDE315F2BD3}" {
+     TargetStorage "Vest/Vest_Taktika_belt_taktika_1_spag.et/pouch1/Pouch_wartech_magpouch_mp105_2_OD.et"
      PrefabsToSpawn {
       "{188781BE6203A0B0}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_7n22AP.et"
      }
