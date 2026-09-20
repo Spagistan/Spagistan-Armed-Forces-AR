@@ -4,7 +4,7 @@ GameEntity : "{61ED31AAF970DE24}Prefabs/Characters/Vests/Vest_Taktika_Pouches/Po
   RHS_EquipmentStorageComponent "{5222CB03D1147687}" {
    InitialStorageSlots {
     RHS_MorphedEquipmentStorageSlot PouchStorage {
-     Offset 0.0076 -0.1239 -0.0128
+     Offset 0.0076 -0.082 -0.0224
      Angles 0 0 0
      m_sMorphStateName ""
      m_fMorphValue 0

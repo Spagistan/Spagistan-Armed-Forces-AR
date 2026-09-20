@@ -1,0 +1,28 @@
+GenericEntity : "{A2BCB4A18E01F41E}Prefabs/Weapons/Rifles/AK74M/Rifle_AK74M_1P78.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{60CC8875532C0317}" {
+     AttachmentSlot InventoryStorageSlot Handguard {
+      Prefab "{CA7E385AF38856D9}Prefabs/Weapons/Attachments/Handguards/Handguard_AK74M/Handguard_AK74M_base.et"
+     }
+    }
+    AttachmentSlotComponent "{664E3A73C2772446}" {
+     AttachmentSlot InventoryStorageSlot PistolGrip {
+      Offset 0 0.0012 0
+      Prefab "{C47BC74FAD225C13}Prefabs/Weapons/Attachments/Grips/Grip_AKS74U_bakelite/RHS_AKS74U_PistolGrip_base.et"
+     }
+    }
+    AttachmentSlotComponent "{664E3A73E86574E4}" {
+     AttachmentSlot InventoryStorageSlot DustCover {
+      Prefab "{E5BE688C8C83318F}Prefabs/Weapons/Attachments/DustCovers/DustCover_AK74M_Standart/RHS_AK74M_DustCover_Camo.et"
+     }
+    }
+    MuzzleComponent "{CA6BE4D6B867541F}" {
+     MagazineTemplate "{240AF1BFB20278CD}Prefabs/Weapons/Magazines/6l23_plum/Magazine_545x39_plum_AK_30rnd_7N22_AP.et"
+    }
+   }
+  }
+ }
+}

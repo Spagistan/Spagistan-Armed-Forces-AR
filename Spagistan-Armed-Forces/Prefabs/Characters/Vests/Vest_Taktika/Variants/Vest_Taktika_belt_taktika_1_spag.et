@@ -63,8 +63,10 @@ GameEntity : "{14712B6C95CA8557}Prefabs/Characters/Vests/Vest_Taktika/Variants/V
      Prefab "{E1E37169D010019F}Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_GP106_RGD_Pouch_OD.et"
     }
     LoadoutSlotInfo UP105_camer {
+     Offset -0.16 0.0246 0.1148
+     Angles 0.6327 -35.2271 0.1976
      Enabled 0
-     Prefab "{0AA53CB4EA5DBC32}Prefabs/Characters/Vests/Vest_Ratnik_Pouches/Pouch_6x9Scabbard.et"
+     Prefab "{3B30DE0E1F512495}Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_MP111_PistolClosed2_OD.et"
     }
     LoadoutSlotInfo droppouch {
      Offset -0.1303 -0.0509 -0.1159
@@ -75,7 +77,6 @@ GameEntity : "{14712B6C95CA8557}Prefabs/Characters/Vests/Vest_Taktika/Variants/V
      Enabled 0
     }
     LoadoutSlotInfo up104 {
-     Enabled 0
      Prefab "{C9BCDDA43BD4FF1E}Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_UP104_utilmini_OD.et"
     }
     LoadoutSlotInfo GMR {
@@ -114,6 +115,11 @@ GameEntity : "{14712B6C95CA8557}Prefabs/Characters/Vests/Vest_Taktika/Variants/V
     LoadoutSlotInfo grenade5 {
      Offset 0.2394 0.015 -0.1466
      Enabled 0
+     Prefab "{5E608DF49E1BB66A}Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_GP106_RGD_Pouch_base.et"
+    }
+    LoadoutSlotInfo grenade6 : grenade5 {
+     Offset 0.1922 0.0082 0.1581
+     Angles -1.7757 36.6739 -2.1898
      Prefab "{5E608DF49E1BB66A}Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_GP106_RGD_Pouch_base.et"
     }
    }

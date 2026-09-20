@@ -6,7 +6,9 @@ SCR_ChimeraCharacter : "{968D3819F8506DBE}Prefabs/Characters/Factions/SPAGISTAN/
     SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
      InitialStorageSlots {
       SCR_EquipmentStorageSlot WristwatchSlot {
-       Prefab "{7C53E6DE2E4BD8CB}Prefabs/Items/Equipment/Watches/Watch_GarminTactixBravo.et"
+      }
+      HQ_WristTabletStorageSlot HQWristTabletSlot {
+       Prefab "{F022F93AB5D9293F}Prefabs/Items/Equipment/Watches/HQ_WristTablet_Base.et"
       }
      }
     }

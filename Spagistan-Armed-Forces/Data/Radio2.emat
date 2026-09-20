@@ -1,0 +1,6 @@
+MatPBRBasic {
+ Color 0.716 0.716 0.716 1
+ BCRMap "{CB0C5A0531A25F86}Data/Radio_low_Radio_BaseColor.edds"
+ NormalPower 3.059
+ NMOMap "{D178CC46D167F7AF}Data/Radio_low_Radio_Normal.edds"
+}
