@@ -1,0 +1,14 @@
+GenericEntity : "{C7DA8607C3B3057E}Prefabs/Compositions/Misc/FreeRoamBuilding/SandbagWallBurlap_S_USSR_01.et" {
+ ID "5282DCB5DFC8538F"
+ components {
+  FactionAffiliationComponent "{6A7851D8E22ABE09}" {
+   "faction affiliation" "SPAG"
+  }
+ }
+ coords 1688.837 39 2840.988
+ {
+  GenericEntity {
+   ID "5D70E0D15461E498"
+  }
+ }
+}
