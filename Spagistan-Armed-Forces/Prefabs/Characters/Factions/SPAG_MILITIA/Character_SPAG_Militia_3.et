@@ -12,14 +12,13 @@ SCR_ChimeraCharacter : "{5346CF7E39A65A6B}Prefabs/Characters/Factions/OPFOR/USSR
    }
   }
   SCR_CharacterFactionAffiliationComponent "{520EC9618276DF23}" {
-   "faction affiliation" "SPAG"
+   "faction affiliation" "SPAG_MILITIA"
   }
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
-    Icon "{EF1F445746A3391A}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_MachineGunner.edds"
     m_sFaction "SPAG"
     m_aAuthoredLabels {
-     GROUPSIZE_SMALL ENTITYTYPE_CHARACTER FACTION_SPAGISTAN ROLE_MACHINEGUNNER
+     GROUPSIZE_SMALL ENTITYTYPE_CHARACTER FACTION_SPAGISTAN
     }
    }
   }
@@ -29,7 +28,7 @@ SCR_ChimeraCharacter : "{5346CF7E39A65A6B}Prefabs/Characters/Factions/OPFOR/USSR
    }
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
-   WeaponTemplate "{5995414BD20D4290}Prefabs/Weapons/MachineGuns/PKM/MG_PKM_B51_1p87.et"
+   WeaponTemplate "{069C2E02FB3883DB}Prefabs/Weapons/Rifles/AN94/Rifle_AN94_camo.et"
   }
   SCR_CharacterIdentityComponent "{5584CBC63E092DBC}" {
    Identity Identity "{5584CBC6363C648B}" {
@@ -42,46 +41,43 @@ SCR_ChimeraCharacter : "{5346CF7E39A65A6B}Prefabs/Characters/Factions/OPFOR/USSR
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
     LoadoutSlotInfo Hat {
-     Prefab "{EA7F9FFEBEC9E311}Prefabs/Characters/HeadGear/Hat_FlatCap_01/TurbanC01.et"
+     Prefab "{93334F7245E4F1C1}Prefabs/Characters/HeadGear/Hat_FlatCap_01/TurbanT02.et"
     }
     LoadoutSlotInfo Jacket {
-     Prefab "{AA4671D72058A45C}Prefabs/Characters/Uniforms/M88_Jacket_SPAG.et"
+     Prefab "{AE499BA64BCFACB4}Prefabs/Characters/Uniforms/Shirt_Telnyashka/Telnyashka_base.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{0AB5B786C5A5F735}Prefabs/Characters/Vests/Vest_Taktika/Vest_Taktika_spag_coy.et"
     }
     LoadoutSlotInfo Pants {
-     Prefab "{537FD11C135757AC}Prefabs/Characters/Uniforms/Pants_Trousers_01/Pants_Trousers_01_DarkGrey_Dirty.et"
+     Prefab "{BF4654AEACE767CC}Prefabs/Characters/Uniforms/M88_Pants_SPAG.et"
     }
     LoadoutSlotInfo Boots {
-     Prefab "{A0E7B5B279B8C343}Prefabs/Characters/Footwear/Chanclas01.et"
+     Prefab "{21B331B5FA807997}Prefabs/Characters/Footwear/Boots_Rocky_SV2/Footwear_Rocky_SV2.et"
     }
     LoadoutSlotInfo Vest {
-     Prefab "{477A190AF2A17B8A}Prefabs/Characters/Vests/Vest_ALICE/Variants/Vest_ALICE_MG.et"
+     Prefab "{C073037A6456D682}Prefabs/Characters/Vests/Vest_Taktika/Variants/Vest_Taktika_belt_taktika_1_spag.et"
     }
    }
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
-    ItemsInitConfigurationItem "{6A6F5440AB15D6E1}" {
-     TargetStorage "Pants/Pants_Trousers_01_DarkGrey_Dirty.et"
+    ItemsInitConfigurationItem "{6A7217300BDD4E86}" {
+     TargetStorage "Pants/M88_Pants_SPAG.et"
      PrefabsToSpawn {
       "{61D4F80E49BF9B12}Prefabs/Items/Equipment/Compass/Compass_SY183.et" "{80E75A71C29190DB}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_USSR_01.et" "{80E75A71C29190DB}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_USSR_01.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et" "{922F95F91943F69A}Prefabs/Items/Equipment/Maps/Map_Paper_01/PaperMap_01_folded_US.et"
      }
     }
-    ItemsInitConfigurationItem "{6A6F5440AB15D6A3}" {
+    ItemsInitConfigurationItem "{6A7217300BDD4E72}" {
      TargetStorage "Jacket/M88_Jacket_SPAG.et"
      PrefabsToSpawn {
       "{9AFB887C6B81C5EA}Prefabs/Items/Equipment/Radios/Radio_Boofung_SPAG.et"
      }
     }
-    ItemsInitConfigurationItem "{6A6F5526DC9CB78B}" {
-     TargetStorage "Vest/Vest_ALICE_MG.et/MagPouch/Pouch_ALICE_200rnd_M249.et"
+    ItemsInitConfigurationItem "{6A7511C7115F1E0B}" {
+     TargetStorage "Vest/Vest_NAZ.et"
      PrefabsToSpawn {
-      "{E5E9C5897CF47F44}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_4Ball_1Tracer.et" "{E5E9C5897CF47F44}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_4Ball_1Tracer.et" "" "" "" "" "" "" ""
-     }
-    }
-    ItemsInitConfigurationItem "{6A721736B087F5D0}" {
-     TargetStorage "Vest/Vest_ALICE_MG.et/Buttpack/Vest_ALICE_buttpack.et"
-     PrefabsToSpawn {
-      "{E5E9C5897CF47F44}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_4Ball_1Tracer.et" "" "" "" "" "" "" "" ""
+      "{0A84AA5A3884176F}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Last_5Tracer.et" "{681E772288F937F0}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_7n22ap_camo.et" "{188781BE6203A0B0}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_7n22AP.et" "{D78C667F59829717}Prefabs/Weapons/Magazines/Magazine_545x39_RPK_45rnd_4Ball_1Tracer.et" "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et" "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et"
      }
     }
    }

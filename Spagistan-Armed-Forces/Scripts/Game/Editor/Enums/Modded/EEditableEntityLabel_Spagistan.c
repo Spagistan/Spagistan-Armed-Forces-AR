@@ -1,4 +1,5 @@
 modded enum EEditableEntityLabel
 {
 	FACTION_SPAGISTAN = 1785201610,
+	FACTION_SPAGMILIITIA = 1790644260
 };
