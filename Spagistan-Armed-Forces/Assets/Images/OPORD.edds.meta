@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{0DF91F5F4440D888}Images/OPORD.edds"
+ Name "{0DF91F5F4440D888}Assets/Images/OPORD.edds"
  Configurations {
   JPGResourceClass PC : "{DC555BD399D92412}Configs/System/ResourceTypes/PC/TextureUnspecified.conf" {
   }

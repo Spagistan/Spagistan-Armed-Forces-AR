@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{52FB6B48E59C9943}Configs/Devices/Spag_DeviceProfiles.conf"
+ Name "{6A1C4F0B39D34600}Configs/Devices/MCF_DeviceProfiles.conf"
  Configurations {
   CONFResourceClass PC {
   }
