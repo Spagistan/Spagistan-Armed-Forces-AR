@@ -26,7 +26,7 @@ SCR_ChimeraCharacter : "{5346CF7E39A65A6B}Prefabs/Characters/Factions/OPFOR/USSR
   }
   SCR_ExtendedCharacterIdentityComponent "{5AEEA3C8B2AA118B}" {
    m_ExtendedIdentity SCR_ExtendedCharacterIdentity "{5AEEA3C8BF06C593}" {
-    m_sFactionOfOriginKey "SPAG"
+    m_sFactionOfOriginKey "SPAG_MILITIA"
    }
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {

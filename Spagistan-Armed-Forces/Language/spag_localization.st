@@ -57,6 +57,14 @@ StringTable {
    Author "Aidan"
    LastChanged "Aidan"
   }
+  CustomStringTableItem "{6A7C2EF4B95F57F6}" {
+   Id "spag-Role_Sniper"
+   Target_en_us "Sniper"
+   Status TRANSLATION_DONE
+   Modified 1786525033
+   Author "aidan"
+   LastChanged "aidan"
+  }
   CustomStringTableItem "{6A453B7BBD22D280}" {
    Id "spag-Squad_1"
    Target_en_us "Squad 1"
@@ -77,6 +85,13 @@ StringTable {
    Modified 1782922681
    Author "Aidan"
    LastChanged "Aidan"
+  }
+  CustomStringTableItem "{6A7C430803543517}" {
+   Id "spag-training_pc"
+   Target_en_us "Training PC - Spagistan"
+   Modified 1786531889
+   Author "aidan"
+   LastChanged "aidan"
   }
   CustomStringTableItem "{6A5A1EF6C8313A8C}" {
    Id "spag-Vest_Taktika_coy_Name"

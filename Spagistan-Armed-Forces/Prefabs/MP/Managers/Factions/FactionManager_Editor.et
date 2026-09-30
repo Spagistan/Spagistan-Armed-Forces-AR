@@ -3,5 +3,7 @@ SCR_FactionManager : "{A242612865F2A48E}Prefabs/MP/Managers/Factions/FactionMana
  Factions {
   SCR_Faction "{6A0348AD47C7FA03}" : "{7294533E944A2118}Configs/Factions/SPAG.conf" {
   }
+  SCR_Faction "{6A7C2EF661BAE3E1}" : "{6C4E7D49BACB45F7}Configs/Factions/SPAG_MILITIA.conf" {
+  }
  }
 }

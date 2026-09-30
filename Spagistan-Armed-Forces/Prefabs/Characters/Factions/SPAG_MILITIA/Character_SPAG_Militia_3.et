@@ -16,15 +16,16 @@ SCR_ChimeraCharacter : "{5346CF7E39A65A6B}Prefabs/Characters/Factions/OPFOR/USSR
   }
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
-    m_sFaction "SPAG"
+    Icon "{AE53796BC5D21A08}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_Rifleman.edds"
+    m_sFaction "SPAG_MILITIA"
     m_aAuthoredLabels {
-     GROUPSIZE_SMALL ENTITYTYPE_CHARACTER FACTION_SPAGISTAN
+     GROUPSIZE_SMALL ENTITYTYPE_CHARACTER FACTION_SPAGMILITIA ROLE_RIFLEMAN
     }
    }
   }
   SCR_ExtendedCharacterIdentityComponent "{5AEEA3C8B2AA118B}" {
    m_ExtendedIdentity SCR_ExtendedCharacterIdentity "{5AEEA3C8BF06C593}" {
-    m_sFactionOfOriginKey "SPAG"
+    m_sFactionOfOriginKey "SPAG_MILITA"
    }
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
