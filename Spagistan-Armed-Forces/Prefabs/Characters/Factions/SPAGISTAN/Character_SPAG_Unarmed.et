@@ -27,9 +27,6 @@ SCR_ChimeraCharacter : "{C245589F6844CA36}Prefabs/Characters/Factions/SPAGISTAN/
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
     ItemsInitConfigurationItem "{6A233D1087CF1E4A}" {
-     PrefabsToSpawn + {
-      ""
-     }
     }
    }
   }

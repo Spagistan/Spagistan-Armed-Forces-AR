@@ -1,21 +1,13 @@
 SCR_ChimeraCharacter : "{5346CF7E39A65A6B}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Base.et" {
  ID "520EC961A090BE1E"
  components {
-  SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
-   components {
-    SCR_IdentityItemStorageComponent "{62AD01171918DA85}" {
-     InitialStorageSlots {
-      SCR_EquipmentStorageSlot IdentityItem {
-      }
-     }
-    }
-   }
-  }
   SCR_CharacterFactionAffiliationComponent "{520EC9618276DF23}" {
    "faction affiliation" "SPAG"
   }
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Icon "{EE0B4CDEA86FC24A}UI/Textures/DeployMenu/LoadoutIcons/LoadoutIcons.imageset"
+    IconSetName "EditableEntity_Character_Unnarmed"
     m_sFaction "SPAG"
     m_aAuthoredLabels {
      GROUPSIZE_SMALL ENTITYTYPE_CHARACTER FACTION_SPAGISTAN
