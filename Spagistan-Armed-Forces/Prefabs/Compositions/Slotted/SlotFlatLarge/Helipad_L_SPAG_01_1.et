@@ -1,0 +1,9 @@
+GenericEntity : "{525C793E1943EA05}Prefabs/Compositions/Slotted/SlotFlatLarge/Helipad_L_USSR_01.et" {
+ ID "5282DCB5DFC8538F"
+ components {
+  FactionAffiliationComponent "{6A7849656FB4A5A0}" {
+   "faction affiliation" "SPAG"
+  }
+ }
+ coords 1687.188 39 2847.547
+}

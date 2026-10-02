@@ -1,0 +1,9 @@
+GenericEntity : "{4093AE33DCEFAD67}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyStorage_S_USSR_01.et" {
+ ID "5282DCB5DFC8538F"
+ components {
+  FactionAffiliationComponent "{56E0D915F82EB4E8}" {
+   "faction affiliation" "SPAG"
+  }
+ }
+ coords 1703.502 39 2853.133
+}
