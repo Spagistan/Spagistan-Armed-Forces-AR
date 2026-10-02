@@ -1,0 +1,51 @@
+SCR_ChimeraCharacter : "{968D3819F8506DBE}Prefabs/Characters/Factions/SPAGISTAN/Character_SPAG_Unarmed.et" {
+ ID "520EC961A090BE1E"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#spag-role_gendamarie"
+    Icon "{AE53796BC5D21A08}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_Rifleman.edds"
+    IconSetName "EditableEntity_Character_Rifleman"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{FA8BE6075AFFBCA8}Prefabs/Weapons/Rifles/AK74M/Rifle_AK74M.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{074C34F8E650AA77}Prefabs/Characters/HeadGear/Hat_FlatCap_01/Hat_MilitaryBeret_BLK.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{B12BD4B42BBBE191}Prefabs/Characters/Uniforms/Jacket_M69Dress_Off.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{3EE5D06F1BB8F48F}Prefabs/Characters/Vests/Vest_Taktika/Vest_Taktika_black.et"
+    }
+    LoadoutSlotInfo Pants {
+    }
+    LoadoutSlotInfo Boots {
+     Prefab "{4C6029AB8BF5C044}Prefabs/Characters/Footwear/CombatBoots_Soviet_01_Dirty.et"
+    }
+    LoadoutSlotInfo Vest {
+    }
+    LoadoutSlotInfo Eyes {
+     Prefab "{4FD84755AF5AB147}Prefabs/Clothing/ZEL_Crossbow_Glasses.et"
+    }
+    LoadoutSlotInfo Extra {
+     Prefab "{CBBBF1FA74C14029}Prefabs/Armbands/ARMBAND_MP.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6A233D1087CF1E4A}" {
+     TargetStorage "Jacket/Jacket_M69Dress_Off.et"
+     PrefabsToSpawn + {
+      "{188781BE6203A0B0}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_7n22AP.et" "{188781BE6203A0B0}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_7n22AP.et" "{188781BE6203A0B0}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_7n22AP.et"
+     }
+    }
+   }
+  }
+ }
+}

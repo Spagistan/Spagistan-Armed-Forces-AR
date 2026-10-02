@@ -2,12 +2,12 @@ GenericEntity : "{28927F9DD7C67788}Prefabs/MCF_Old_PC.et" {
  ID "6A1C4F0B39F20001"
  components {
   MCF_Intel_CarrierComponent "{6A1C4F0B39F20004}" {
-   m_sDeviceName "Training PC"
+   m_sDeviceName "SAF PC"
    m_sProfileId "spag_training"
   }
   SCR_EditableEntityComponent "{6A1C4F0B39F2000C}" {
    m_UIInfo SCR_EditableEntityUIInfo "{6A1C4F0B39F2000D}" {
-    Name "#spag-training_pc"
+    Name "#spag-saf_pc"
    }
   }
  }
