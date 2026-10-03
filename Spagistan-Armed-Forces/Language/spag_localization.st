@@ -8,6 +8,13 @@ StringTable {
    Author "Aidan"
    LastChanged "Aidan"
   }
+  CustomStringTableItem "{6A860C1D9377B17C}" {
+   Id "spag-grenadier_pouch_preset"
+   Target_en_us "Grenadier - Pouch Preset"
+   Modified 1787176290
+   Author "Aidan"
+   LastChanged "Aidan"
+  }
   CustomStringTableItem "{6A5A869D4746B722}" {
    Id "spag-Headgear_Helmet_SSh68_Name"
    Target_en_us "SSh68 - Spagpat"
@@ -40,6 +47,13 @@ StringTable {
    Id "spag-Reserves"
    Target_en_us "Reserves"
    Modified 1782922694
+   Author "Aidan"
+   LastChanged "Aidan"
+  }
+  CustomStringTableItem "{6A860C1381E7D85C}" {
+   Id "spag-rifleman_pouch_preset"
+   Target_en_us "Rifleman - Pouch Preset"
+   Modified 1787171485
    Author "Aidan"
    LastChanged "Aidan"
   }

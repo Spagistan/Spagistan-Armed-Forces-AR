@@ -1,6 +1,14 @@
 GameEntity : "{14712B6C95CA8557}Prefabs/Characters/Vests/Vest_Taktika/Variants/Vest_Taktika_belt_taktika_1.et" {
  ID "60633E89449A0B9A"
  components {
+  RHS_ClothNodeStorageComponent "{60633E894989E44F}" {
+   Attributes SCR_ItemAttributeCollection "{60633E894989E477}" {
+    ItemDisplayName UIInfo "{60633E894989E4CB}" {
+     Name "#spag-grenadier_pouch_preset"
+     Description "A pouch preset optimized to hold 40mm grenades. A team leader might wear this."
+    }
+   }
+  }
   BaseLoadoutClothComponent "{60633E894989E6AD}" {
    Slots {
     LoadoutSlotInfo pouch1 {
@@ -26,6 +34,7 @@ GameEntity : "{14712B6C95CA8557}Prefabs/Characters/Vests/Vest_Taktika/Variants/V
     LoadoutSlotInfo holster {
      Offset -0.1813 -0.0013 0.0013
      Angles 3.2279 -91.3651 -3.7127
+     Enabled 0
      Prefab "{4F3860EC46614D69}Prefabs/Items/Equipment/Accessories/ETool_MPL50/RHS_MPL50_Carrier_spag.et"
     }
     LoadoutSlotInfo radio {
@@ -42,6 +51,7 @@ GameEntity : "{14712B6C95CA8557}Prefabs/Characters/Vests/Vest_Taktika/Variants/V
     LoadoutSlotInfo akmag2 {
      Offset 0.1704 -0.017 -0.0919
      Angles -2 125.3664 2.5739
+     Enabled 0
      Prefab "{D11383C5E70AAA89}Prefabs/Characters/Vests/Vest_SovietHarness/Vest_SovietHarness_MedicalPouch.et"
     }
     LoadoutSlotInfo pistolmag1 {
@@ -63,8 +73,10 @@ GameEntity : "{14712B6C95CA8557}Prefabs/Characters/Vests/Vest_Taktika/Variants/V
      Prefab "{E1E37169D010019F}Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_GP106_RGD_Pouch_OD.et"
     }
     LoadoutSlotInfo UP105_camer {
+     Offset -0.16 0.0246 0.1148
+     Angles 0.6327 -35.2271 0.1976
      Enabled 0
-     Prefab "{0AA53CB4EA5DBC32}Prefabs/Characters/Vests/Vest_Ratnik_Pouches/Pouch_6x9Scabbard.et"
+     Prefab "{3B30DE0E1F512495}Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_MP111_PistolClosed2_OD.et"
     }
     LoadoutSlotInfo droppouch {
      Offset -0.1303 -0.0509 -0.1159
@@ -75,8 +87,9 @@ GameEntity : "{14712B6C95CA8557}Prefabs/Characters/Vests/Vest_Taktika/Variants/V
      Enabled 0
     }
     LoadoutSlotInfo up104 {
-     Enabled 0
-     Prefab "{C9BCDDA43BD4FF1E}Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_UP104_utilmini_OD.et"
+     Offset -0.1733 -0.0423 0.1233
+     Angles -2.6915 -43.654 3.6924
+     Prefab "{5A8DE5AC4B34B377}Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Filbe_40mm_1.et"
     }
     LoadoutSlotInfo GMR {
      Enabled 0
@@ -90,14 +103,13 @@ GameEntity : "{14712B6C95CA8557}Prefabs/Characters/Vests/Vest_Taktika/Variants/V
     LoadoutSlotInfo up103_belt {
      Offset 0.1686 0.0383 0.0406
      Angles 3.0056 72.3743 0.9037
+     Enabled 0
      Prefab "{C5A8B378E38AA4FF}Prefabs/Characters/Vests/Vest_SovietHarness/Vest_SovietHarness_GrenadePouch.et"
     }
     LoadoutSlotInfo grenade1 {
-     Enabled 0
      Prefab "{E1E37169D010019F}Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_GP106_RGD_Pouch_OD.et"
     }
     LoadoutSlotInfo grenade2 {
-     Enabled 0
      Prefab "{DA55B848F410889F}Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_GP106_RGD_Pouch_2_OD.et"
     }
     LoadoutSlotInfo grenadebelt {
@@ -112,8 +124,102 @@ GameEntity : "{14712B6C95CA8557}Prefabs/Characters/Vests/Vest_Taktika/Variants/V
      Prefab "{E1E37169D010019F}Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_GP106_RGD_Pouch_OD.et"
     }
     LoadoutSlotInfo grenade5 {
-     Offset 0.2394 0.015 -0.1466
-     Enabled 0
+     Offset 0.2127 0.0433 0.0062
+     Angles 0.7231 90.546 -4.8295
+     Prefab "{3015931F34E2E360}Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_UP101_Admin_big_OD.et"
+    }
+    LoadoutSlotInfo ubgl1 : akmag1 {
+     Offset 0.1651 -0.0023 0.1108
+     Angles 1.1359 48.2374 2.9621
+     Enabled 1
+     Prefab "{5A8DE5AC4B34B377}Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Filbe_40mm_1.et"
+    }
+    LoadoutSlotInfo ubgl2 : akmag1 {
+     Offset 0.1933 -0.0052 0.0675
+     Angles 0.0717 67.9067 3.1715
+     Enabled 1
+     Prefab "{36D9D14CF7F03C59}Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Filbe_40mm_2.et"
+    }
+    LoadoutSlotInfo ubgl3 : akmag1 {
+     Offset 0.2075 -0.0075 0.0268
+     Angles -0.613 80.3315 3.1126
+     Enabled 1
+     Prefab "{D3459DB5FB15AB32}Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Filbe_40mm_3.et"
+    }
+    LoadoutSlotInfo ubgl4 : akmag1 {
+     Offset 0.2053 -0.0107 -0.0171
+     Angles -1.5665 98.767 2.7589
+     Enabled 1
+     Prefab "{36D9D14CF7F03C59}Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Filbe_40mm_2.et"
+    }
+    LoadoutSlotInfo ubgl5 : akmag1 {
+     Offset 0.1946 -0.0158 -0.0616
+     Angles -2.1574 112.0204 2.3264
+     Enabled 1
+     Prefab "{5A8DE5AC4B34B377}Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Filbe_40mm_1.et"
+    }
+    LoadoutSlotInfo ubgl6 : akmag1 {
+     Offset 0.1708 -0.0175 -0.0999
+     Angles -2.9471 137.45799 1.1747
+     Enabled 1
+     Prefab "{36D9D14CF7F03C59}Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Filbe_40mm_2.et"
+    }
+    LoadoutSlotInfo ubgl7 : akmag1 {
+     Offset 0.1384 -0.0183 -0.1281
+     Angles -3.1088 147.7032 0.6321
+     Enabled 1
+     Prefab "{5A8DE5AC4B34B377}Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Filbe_40mm_1.et"
+    }
+    LoadoutSlotInfo ubgl8 : akmag1 {
+     Offset 0.102 -0.0186 -0.1483
+     Angles -3.1691 161.82491 -0.1451
+     Enabled 1
+     Prefab "{5A8DE5AC4B34B377}Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Filbe_40mm_1.et"
+    }
+    LoadoutSlotInfo ubgl9 : akmag1 {
+     Offset 0.0623 -0.0185 -0.1612
+     Angles -3.105 171.0508 -0.6511
+     Enabled 1
+     Prefab "{D3459DB5FB15AB32}Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Filbe_40mm_3.et"
+    }
+    LoadoutSlotInfo ubgl10 : akmag1 {
+     Offset -0.1921 -0.0086 -0.0654
+     Angles -0.1687 -113.8431 -3.1679
+     Enabled 1
+     Prefab "{D3459DB5FB15AB32}Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Filbe_40mm_3.et"
+    }
+    LoadoutSlotInfo ubgl11 : akmag1 {
+     Offset -0.2077 -0.006 -0.0217
+     Angles 0.8932 -94.4604 -3.0442
+     Enabled 1
+     Prefab "{5A8DE5AC4B34B377}Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Filbe_40mm_1.et"
+    }
+    LoadoutSlotInfo ubgl12 : akmag1 {
+     Offset -0.2054 -0.0035 0.0284
+     Angles 1.8607 -74.9152 -2.5699
+     Enabled 1
+     Prefab "{36D9D14CF7F03C59}Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Filbe_40mm_2.et"
+    }
+    LoadoutSlotInfo ubgl13 : akmag1 {
+     Offset -0.193 -0.0017 0.0679
+     Angles 2.4353 -60.6839 -2.0337
+     Enabled 1
+     Prefab "{5A8DE5AC4B34B377}Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Filbe_40mm_1.et"
+    }
+    LoadoutSlotInfo ubgl14 : akmag1 {
+     Offset -0.1629 -0.0001 0.1098
+     Angles 2.9114 -44.2229 -1.2606
+     Enabled 1
+     Prefab "{D3459DB5FB15AB32}Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Filbe_40mm_3.et"
+    }
+    LoadoutSlotInfo ubglv2 : up104 {
+     Offset -0.2023 -0.0385 0.081
+     Angles -1.1383 -65.2946 4.4243
+     Prefab "{36D9D14CF7F03C59}Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Filbe_40mm_2.et"
+    }
+    LoadoutSlotInfo grenade6 : grenade5 {
+     Offset 0.1922 0.0082 0.1581
+     Angles -1.7757 36.6739 -2.1898
      Prefab "{5E608DF49E1BB66A}Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_GP106_RGD_Pouch_base.et"
     }
    }

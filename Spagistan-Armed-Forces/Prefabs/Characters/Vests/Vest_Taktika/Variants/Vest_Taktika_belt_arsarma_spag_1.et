@@ -73,4 +73,5 @@ GameEntity : "{80D146923D4A34FE}Prefabs/Characters/Vests/Vest_Taktika/Variants/V
    ItemModel "{595F3EF087206227}Assets/Characters/Belts/Belt_Wartech_TV106/TV106_ground.xob"
   }
  }
+ coords 0 0 0
 }
