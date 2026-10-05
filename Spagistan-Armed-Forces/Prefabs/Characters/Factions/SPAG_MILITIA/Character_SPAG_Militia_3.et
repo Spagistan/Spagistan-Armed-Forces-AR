@@ -17,6 +17,7 @@ SCR_ChimeraCharacter : "{5346CF7E39A65A6B}Prefabs/Characters/Factions/OPFOR/USSR
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
     Icon "{AE53796BC5D21A08}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_Rifleman.edds"
+    m_Image "{7C113E14625E739E}UI/Textures/EditorPreviews/MILITIA/Character_SPAG_Militia3.edds"
     m_sFaction "SPAG_MILITIA"
     m_aAuthoredLabels {
      GROUPSIZE_SMALL ENTITYTYPE_CHARACTER FACTION_SPAGMILITIA ROLE_RIFLEMAN
@@ -57,7 +58,7 @@ SCR_ChimeraCharacter : "{5346CF7E39A65A6B}Prefabs/Characters/Factions/OPFOR/USSR
      Prefab "{21B331B5FA807997}Prefabs/Characters/Footwear/Boots_Rocky_SV2/Footwear_Rocky_SV2.et"
     }
     LoadoutSlotInfo Vest {
-     Prefab "{C073037A6456D682}Prefabs/Characters/Vests/Vest_Taktika/Variants/Vest_Taktika_belt_taktika_1_spag.et"
+     Prefab "{C073037A6456D682}Prefabs/Characters/Vests/Vest_Taktika/Variants/Vest_Taktika_spag_rifle.et"
     }
    }
   }

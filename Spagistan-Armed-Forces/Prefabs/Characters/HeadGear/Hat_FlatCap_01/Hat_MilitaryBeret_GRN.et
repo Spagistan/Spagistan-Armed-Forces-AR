@@ -1,0 +1,23 @@
+GameEntity : "{9F3A7D7943C278D1}Prefabs/Characters/HeadGear/Hat_FlatCap_01/Hat_FlatCap_01_base.et" {
+ ID "5112706CD4157AC7"
+ components {
+  SCR_HeadgearInventoryItemComponent "{5244E4431E28A759}" {
+   Attributes SCR_ItemAttributeCollection "{5244E4431DA56D64}" {
+    ItemDisplayName UIInfo "{5244E443130B31B9}" {
+     Name "Military Beret - Green"
+     Description "The Beret is a common and widely known piece of headgear that is worn by most nations across the world in some capacity in regard to military and/or law enforcement. Primarily as a parade item, in some nations it is used as a standard part of the respective units uniform."
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   WornModel "{8B107EF5803FE0D9}BSI Clothing Assets/Military Beret/Hat_Beret_Worn.xob"
+   WornMaterialsOverride {
+    "{296505374517CDD0}BSI Clothing Assets/Military Beret/Data/Beret_GRN.emat"
+   }
+   ItemModel "{E2BE05E990B13427}BSI Clothing Assets/Military Beret/Hat_Beret_Item.xob"
+   ItemMaterialsOverride {
+    "{296505374517CDD0}BSI Clothing Assets/Military Beret/Data/Beret_GRN.emat"
+   }
+  }
+ }
+}

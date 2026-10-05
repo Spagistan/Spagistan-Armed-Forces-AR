@@ -73,10 +73,10 @@ StringTable {
   }
   CustomStringTableItem "{6A8442849D7F55D7}" {
    Id "spag-role_gendamarie"
-   Target_en_us "Gendamarie"
-   Modified 1787053208
+   Target_en_us "Policeman"
+   Modified 1787518569
    Author "aidan"
-   LastChanged "aidan"
+   LastChanged "Aidan"
   }
   CustomStringTableItem "{6A7C2EF4B95F57F6}" {
    Id "spag-Role_Sniper"

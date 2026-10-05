@@ -18,6 +18,7 @@ SCR_ChimeraCharacter : "{5346CF7E39A65A6B}Prefabs/Characters/Factions/OPFOR/USSR
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
     Name "#spag-Role_Sniper"
     Icon "{0A78405E73C36477}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_Sharpshooter.edds"
+    m_Image "{DCA03A5E6464C338}UI/Textures/EditorPreviews/MILITIA/Character_SPAG_Militia_Sniper.edds"
     m_sFaction "SPAG_MILITIA"
     m_aAuthoredLabels {
      GROUPSIZE_SMALL ENTITYTYPE_CHARACTER FACTION_SPAGMILITIA ROLE_SHARPSHOOTER TRAIT_OPTICS

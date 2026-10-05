@@ -1,23 +1,41 @@
 SCR_ChimeraCharacter : "{968D3819F8506DBE}Prefabs/Characters/Factions/SPAGISTAN/Character_SPAG_Unarmed.et" {
  ID "520EC961A090BE1E"
  components {
+  SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
+   components {
+    SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
+     InitialStorageSlots {
+      SCR_EquipmentStorageSlot WristwatchSlot {
+       Prefab "{8EBBBABE8A5652C0}Prefabs/Items/Equipment/Watches/Watch_GarminTactixBravo_Blue.et"
+      }
+     }
+    }
+   }
+  }
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
     Name "#spag-role_gendamarie"
     Icon "{AE53796BC5D21A08}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_Rifleman.edds"
     IconSetName "EditableEntity_Character_Rifleman"
+    m_Image "{24893458EC80A354}UI/Textures/EditorPreviews/Character_SPAG_Police.edds"
+    m_aAuthoredLabels {
+     GROUPSIZE_SMALL ENTITYTYPE_CHARACTER FACTION_SPAGISTAN ROLE_RIFLEMAN
+    }
    }
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
-   WeaponTemplate "{FA8BE6075AFFBCA8}Prefabs/Weapons/Rifles/AK74M/Rifle_AK74M.et"
+   WeaponTemplate "{6408F2C84AE5DBD0}Prefabs/Weapons/Rifles/AK74/Rifle_AK74_RHSMag.et"
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFDC}" {
+   WeaponTemplate "{C0F7DD85A86B2900}Prefabs/Weapons/Handguns/PM/Handgun_PM.et"
   }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
     LoadoutSlotInfo Hat {
-     Prefab "{074C34F8E650AA77}Prefabs/Characters/HeadGear/Hat_FlatCap_01/Hat_MilitaryBeret_BLK.et"
+     Prefab "{A1832A4990D49CF8}Prefabs/Characters/HeadGear/Hat_FlatCap_01/Hat_MilitaryBeret_GRN.et"
     }
     LoadoutSlotInfo Jacket {
-     Prefab "{B12BD4B42BBBE191}Prefabs/Characters/Uniforms/Jacket_M69Dress_Off.et"
+     Prefab "{79A4E96ACCA5EA1A}Prefabs/Characters/Uniforms/Shirt_M69Summer.et"
     }
     LoadoutSlotInfo ArmoredVest {
     }
@@ -27,20 +45,40 @@ SCR_ChimeraCharacter : "{968D3819F8506DBE}Prefabs/Characters/Factions/SPAGISTAN/
      Prefab "{4C6029AB8BF5C044}Prefabs/Characters/Footwear/CombatBoots_Soviet_01_Dirty.et"
     }
     LoadoutSlotInfo Vest {
+     Prefab "{CFC97CF885DAF16D}Prefabs/Characters/Vests/Vest_Taktika/Variants/Vest_Taktika_spag_cop_belt.et"
+    }
+    LoadoutSlotInfo Head {
     }
     LoadoutSlotInfo Eyes {
     }
     LoadoutSlotInfo Extra {
-     Prefab "{CBBBF1FA74C14029}Prefabs/Armbands/ARMBAND_MP.et"
     }
    }
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
     ItemsInitConfigurationItem "{6A233D1087CF1E4A}" {
-     TargetStorage "Jacket/Jacket_M69Dress_Off.et"
-     PrefabsToSpawn + {
-      "{188781BE6203A0B0}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_7n22AP.et" "{188781BE6203A0B0}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_7n22AP.et" "{188781BE6203A0B0}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_7n22AP.et"
+     TargetStorage "Jacket/Shirt_M69Summer.et"
+     PrefabsToSpawn {
+      "{0A84AA5A3884176F}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Last_5Tracer.et" "{0A84AA5A3884176F}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Last_5Tracer.et" "{0A84AA5A3884176F}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Last_5Tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6A8B25EB31617E70}" {
+     TargetStorage "Vest/Vest_Taktika_spag_cop_belt.et/UP105_camer/Holster_PM_magpouch.et"
+     PrefabsToSpawn {
+      "{8B853CDD11BA916E}Prefabs/Weapons/Magazines/Magazine_9x18_PM_8rnd_Ball.et" "{8B853CDD11BA916E}Prefabs/Weapons/Magazines/Magazine_9x18_PM_8rnd_Ball.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6A8B25E91A6404A4}" {
+     TargetStorage "Vest/Vest_Taktika_spag_cop_belt.et/grenadebelt/Pouch_Taktika_radioPouch_SPAG.et"
+     PrefabsToSpawn {
+      "{9AFB887C6B81C5EA}Prefabs/Items/Equipment/Radios/Radio_Boofung_SPAG.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6A8B25E93AD4401E}" {
+     TargetStorage "Vest/Vest_Taktika_spag_cop_belt.et/grenade4/Pouch_UP104_utilmini_OD.et"
+     PrefabsToSpawn {
+      "{CBF9B9942E07B6B8}Prefabs/Items/Equipment/Accessories/ZipCuffs/ACE_Captives_ZipCuffs.et" "{CBF9B9942E07B6B8}Prefabs/Items/Equipment/Accessories/ZipCuffs/ACE_Captives_ZipCuffs.et" "{CBF9B9942E07B6B8}Prefabs/Items/Equipment/Accessories/ZipCuffs/ACE_Captives_ZipCuffs.et" "{CBF9B9942E07B6B8}Prefabs/Items/Equipment/Accessories/ZipCuffs/ACE_Captives_ZipCuffs.et" "{CBF9B9942E07B6B8}Prefabs/Items/Equipment/Accessories/ZipCuffs/ACE_Captives_ZipCuffs.et"
      }
     }
    }
