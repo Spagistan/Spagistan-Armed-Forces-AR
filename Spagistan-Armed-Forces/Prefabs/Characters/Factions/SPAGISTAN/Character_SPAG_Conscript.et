@@ -5,10 +5,11 @@ SCR_ChimeraCharacter : "{968D3819F8506DBE}Prefabs/Characters/Factions/SPAGISTAN/
    components {
     SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
      InitialStorageSlots {
-      SCR_EquipmentStorageSlot WristwatchSlot {
+      SCR_EquipmentStorageSlot BinocularSlot {
+       Prefab "{BCEA0EB0D764D8DD}Prefabs/Items/Equipment/Binoculars/Rangefinder_PDU4.et"
       }
-      HQ_WristTabletStorageSlot HQWristTabletSlot {
-       Prefab "{F022F93AB5D9293F}Prefabs/Items/Equipment/Watches/HQ_WristTablet_Base.et"
+      SCR_EquipmentStorageSlot WristwatchSlot {
+       Prefab "{7C53E6DE2E4BD8CB}Prefabs/Items/Equipment/Watches/Watch_GarminTactixBravo.et"
       }
      }
     }
@@ -42,7 +43,7 @@ SCR_ChimeraCharacter : "{968D3819F8506DBE}Prefabs/Characters/Factions/SPAGISTAN/
      Prefab "{41A9C55B61F375F0}Prefabs/Items/Equipment/Backpacks/Backpack_Kolobok.et"
     }
     LoadoutSlotInfo Vest {
-     Prefab "{C073037A6456D682}Prefabs/Characters/Vests/Vest_Taktika/Variants/Vest_Taktika_belt_taktika_1_spag.et"
+     Prefab "{C073037A6456D682}Prefabs/Characters/Vests/Vest_Taktika/Variants/Vest_Taktika_spag_rifle.et"
     }
     LoadoutSlotInfo Head {
     }
@@ -61,19 +62,19 @@ SCR_ChimeraCharacter : "{968D3819F8506DBE}Prefabs/Characters/Factions/SPAGISTAN/
      }
     }
     ItemsInitConfigurationItem "{6A5E108D597A6D33}" {
-     TargetStorage "Vest/Vest_Taktika_belt_taktika_1_spag.et/holster/RHS_MPL50_Carrier_spag.et"
+     TargetStorage "Vest/Vest_Taktika_spag_rifle.et/holster/RHS_MPL50_Carrier_spag.et"
      PrefabsToSpawn {
       "{062E2F1D7F6739D6}Prefabs/Items/Equipment/Accessories/ETool_MPL50/ETool_MPL50_FreeRoamBuilding_Gadget.et"
      }
     }
     ItemsInitConfigurationItem "{6A604DC86B3A6464}" {
-     TargetStorage "Vest/Vest_Taktika_belt_taktika_1_spag.et/radio/Pouch_Taktika_radioPouch_SPAG.et"
+     TargetStorage "Vest/Vest_Taktika_spag_rifle.et/radio/Pouch_Taktika_radioPouch_SPAG.et"
      PrefabsToSpawn {
       "{9AFB887C6B81C5EA}Prefabs/Items/Equipment/Radios/Radio_Boofung_SPAG.et"
      }
     }
     ItemsInitConfigurationItem "{6A613BDE315F2BD3}" {
-     TargetStorage "Vest/Vest_Taktika_belt_taktika_1_spag.et/pouch1/Pouch_wartech_magpouch_mp105_2_OD.et"
+     TargetStorage "Vest/Vest_Taktika_spag_rifle.et/pouch1/Pouch_wartech_magpouch_mp105_2_OD.et"
      PrefabsToSpawn {
       "{188781BE6203A0B0}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_7n22AP.et"
      }

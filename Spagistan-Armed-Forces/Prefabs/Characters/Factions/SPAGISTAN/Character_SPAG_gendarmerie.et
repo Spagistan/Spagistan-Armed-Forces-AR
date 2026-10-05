@@ -20,7 +20,6 @@ SCR_ChimeraCharacter : "{968D3819F8506DBE}Prefabs/Characters/Factions/SPAGISTAN/
      Prefab "{B12BD4B42BBBE191}Prefabs/Characters/Uniforms/Jacket_M69Dress_Off.et"
     }
     LoadoutSlotInfo ArmoredVest {
-     Prefab "{3EE5D06F1BB8F48F}Prefabs/Characters/Vests/Vest_Taktika/Vest_Taktika_black.et"
     }
     LoadoutSlotInfo Pants {
     }
@@ -30,7 +29,6 @@ SCR_ChimeraCharacter : "{968D3819F8506DBE}Prefabs/Characters/Factions/SPAGISTAN/
     LoadoutSlotInfo Vest {
     }
     LoadoutSlotInfo Eyes {
-     Prefab "{4FD84755AF5AB147}Prefabs/Clothing/ZEL_Crossbow_Glasses.et"
     }
     LoadoutSlotInfo Extra {
      Prefab "{CBBBF1FA74C14029}Prefabs/Armbands/ARMBAND_MP.et"
