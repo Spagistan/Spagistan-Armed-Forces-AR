@@ -1,0 +1,9 @@
+GenericEntity : "{07D58C64654F71A3}Prefabs/Compositions/Slotted/SlotFlatSmall/SandbagPosition_S_USSR_03.et" {
+ ID "5282DCB5DFC8538F"
+ components {
+  FactionAffiliationComponent "{5D06E95D9F81DA7E}" {
+   "faction affiliation" "SPAG"
+  }
+ }
+ coords 1697.153 39 2848.058
+}

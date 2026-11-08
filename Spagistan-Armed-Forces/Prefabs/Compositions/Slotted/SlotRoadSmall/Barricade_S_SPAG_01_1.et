@@ -1,0 +1,9 @@
+GenericEntity : "{83A10E8547281E58}Prefabs/Compositions/Slotted/SlotRoadSmall/Barricade_S_USSR_01.et" {
+ ID "5282DCB5DFC8538F"
+ components {
+  FactionAffiliationComponent "{5CC6A59B253A46C9}" {
+   "faction affiliation" "SPAG"
+  }
+ }
+ coords 1689.736 39 2852.192
+}

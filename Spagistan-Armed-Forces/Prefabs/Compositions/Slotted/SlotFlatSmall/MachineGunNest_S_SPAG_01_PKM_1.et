@@ -1,0 +1,9 @@
+GenericEntity : "{114DE81321786CD9}Prefabs/Compositions/Slotted/SlotFlatSmall/MachineGunNest_S_USSR_01_PKM.et" {
+ ID "560C7347712A1E2A"
+ components {
+  FactionAffiliationComponent "{5D06E95DB55F37A7}" {
+   "faction affiliation" "SPAG"
+  }
+ }
+ coords 1699.538 39.044 2845.335
+}

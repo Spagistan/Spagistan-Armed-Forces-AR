@@ -1,0 +1,9 @@
+GenericEntity : "{2A3B53114DEAA60B}Prefabs/Compositions/Slotted/SlotFlatSmall/Headquarters_S_USSR_01.et" {
+ ID "5282DCB5DFC8538F"
+ components {
+  FactionAffiliationComponent "{5D06E95D12174E9C}" {
+   "faction affiliation" "SPAG"
+  }
+ }
+ coords 1691.478 39.01 2846.225
+}

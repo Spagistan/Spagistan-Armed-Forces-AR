@@ -1,0 +1,9 @@
+GenericEntity : "{28D63631873AA636}Prefabs/Compositions/Slotted/SlotFlatSmall/MortarPlacement_S_USSR_01.et" {
+ ID "5282DCB5DFC8538F"
+ components {
+  FactionAffiliationComponent "{6A784966769A7557}" {
+   "faction affiliation" "SPAG"
+  }
+ }
+ coords 1708.665 39 2845.405
+}

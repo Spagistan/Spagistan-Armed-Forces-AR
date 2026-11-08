@@ -1,0 +1,9 @@
+GenericEntity : "{7C85836D444E3797}Prefabs/Compositions/Slotted/SlotRoadMedium/Checkpoint_M_USSR_01.et" {
+ ID "5282DCB5DFC8538F"
+ components {
+  FactionAffiliationComponent "{5CC6A59B085DB898}" {
+   "faction affiliation" "SPAG"
+  }
+ }
+ coords 1701.622 39 2846.819
+}

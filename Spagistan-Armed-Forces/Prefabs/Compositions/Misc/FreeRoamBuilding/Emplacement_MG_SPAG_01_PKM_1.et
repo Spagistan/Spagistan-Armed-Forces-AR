@@ -1,0 +1,10 @@
+GenericEntity : "{EDB539C08A95005B}Prefabs/Compositions/Misc/FreeRoamBuilding/Emplacement_MG_USSR_01_PKM.et" {
+ ID "570C9564D02F5C86"
+ components {
+  FactionAffiliationComponent "{65307724BE77F076}" {
+   "faction affiliation" "SPAG"
+  }
+ }
+ coords 1688.092 39 2840.251
+ angles 0 0 0
+}

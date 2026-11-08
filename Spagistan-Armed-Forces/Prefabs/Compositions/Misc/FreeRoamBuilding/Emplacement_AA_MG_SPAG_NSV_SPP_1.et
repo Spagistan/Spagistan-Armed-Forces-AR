@@ -1,0 +1,9 @@
+GenericEntity : "{ACA8E717A7226E72}Prefabs/Compositions/Misc/FreeRoamBuilding/Emplacement_AA_MG_USSR_NSV_SPP.et" {
+ ID "6530770E3E2ACD19"
+ components {
+  FactionAffiliationComponent "{65307724E5EDD03E}" {
+   "faction affiliation" "SPAG"
+  }
+ }
+ coords 1690.3 39 2851.295
+}

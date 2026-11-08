@@ -1,0 +1,9 @@
+GenericEntity : "{2ACE3A315F531CFE}Prefabs/Compositions/Slotted/SlotFlatMedium/FieldHospital_M_Conflict_USSR_01.et" {
+ ID "5282DCB5DFC8538F"
+ components {
+  FactionAffiliationComponent "{63088892A8A08722}" {
+   "faction affiliation" "SPAG"
+  }
+ }
+ coords 1692.057 39 2841.517
+}

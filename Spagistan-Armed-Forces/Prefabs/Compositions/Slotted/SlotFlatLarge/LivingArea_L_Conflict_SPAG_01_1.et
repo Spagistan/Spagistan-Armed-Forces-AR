@@ -1,0 +1,9 @@
+GenericEntity : "{F68F3B7247F6E80F}Prefabs/Compositions/Slotted/SlotFlatLarge/LivingArea_L_Conflict_USSR_01.et" {
+ ID "5282DCB5DFC8538F"
+ components {
+  FactionAffiliationComponent "{63072D9EF9DE3BCA}" {
+   "faction affiliation" "SPAG"
+  }
+ }
+ coords 1686.256 39 2852.607
+}
